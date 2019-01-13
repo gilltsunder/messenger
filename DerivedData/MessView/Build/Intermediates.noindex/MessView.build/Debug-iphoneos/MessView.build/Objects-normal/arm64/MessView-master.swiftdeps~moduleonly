@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "e0eaea8938292d116101e4da16dafae1"
+build_time: [1547380899, 826643000]
+inputs:
+  "/Users/gbs/Xcode/MessView/MessView/View/ChatLog.swift": [1547378506, 0]
+  "/Users/gbs/Xcode/MessView/MessView/View/UserListCell.swift": [1545743761, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Controller/Registration.swift": [1546850000, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Model/User.swift": [1545856938, 0]
+  "/Users/gbs/Xcode/MessView/MessView/View/ChatMessageCell.swift": [1547380435, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Controller/NewMessage.swift": [1546850000, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Controller/ChatLogController.swift": [1547380899, 0]
+  "/Users/gbs/Xcode/MessView/MessView/AppDelegate.swift": [1545500080, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Controller/Loggin.swift": [1546850000, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Model/Message.swift": [1546255377, 0]
+  "/Users/gbs/Xcode/MessView/MessView/Controller/MessageView.swift": [1547380106, 0]

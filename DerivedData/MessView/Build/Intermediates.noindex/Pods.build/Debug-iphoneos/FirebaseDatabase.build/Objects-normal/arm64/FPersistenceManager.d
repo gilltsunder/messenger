@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPersistenceManager.m \
+  /Users/gbs/Xcode/MessView/DerivedData/MessView/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/gbs/Xcode/MessView/DerivedData/MessView/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/gbs/Xcode/MessView/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPersistenceManager.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FNode.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FCompoundWrite.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Core/FQuerySpec.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/FIndex.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FStorageEngine.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FCachePolicy.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Core/View/FCacheNode.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FLevelDBStorageEngine.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FIndexedNode.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/FNamedNode.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPruneForest.h \
+  /Users/gbs/Xcode/MessView/Pods/FirebaseDatabase/Firebase/Database/FClock.h

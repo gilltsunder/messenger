@@ -5,6 +5,1834 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0897048A-7F2F-432E-A33F-2FADE225CA50</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0897048A-7F2F-432E-A33F-2FADE225CA50.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980480.82397795</real>
+			<key>timeStoppedRecording</key>
+			<real>568983233.31432199</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0897048A-7F2F-432E-A33F-2FADE225CA50</string>
+		</dict>
+		<key>0A648486-F354-4B64-82BA-37C34981C06C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0A648486-F354-4B64-82BA-37C34981C06C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974130.47586596</real>
+			<key>timeStoppedRecording</key>
+			<real>568974155.43878102</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0A648486-F354-4B64-82BA-37C34981C06C</string>
+		</dict>
+		<key>0D459567-4392-4539-BA59-350A243C3B81</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0D459567-4392-4539-BA59-350A243C3B81.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974420.52515495</real>
+			<key>timeStoppedRecording</key>
+			<real>568974435.98933995</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0D459567-4392-4539-BA59-350A243C3B81</string>
+		</dict>
+		<key>0E6AF69B-463E-4E0E-ACE5-6B5912684052</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0E6AF69B-463E-4E0E-ACE5-6B5912684052.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980326.04714799</real>
+			<key>timeStoppedRecording</key>
+			<real>568980396.90896499</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0E6AF69B-463E-4E0E-ACE5-6B5912684052</string>
+		</dict>
+		<key>10C87117-62CD-4D55-BE84-4F59B81B8B5C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>10C87117-62CD-4D55-BE84-4F59B81B8B5C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980055.55937302</real>
+			<key>timeStoppedRecording</key>
+			<real>568980173.65274405</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>10C87117-62CD-4D55-BE84-4F59B81B8B5C</string>
+		</dict>
+		<key>11D67BD5-A761-4BCE-B0A4-A9B87EFC3409</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>11D67BD5-A761-4BCE-B0A4-A9B87EFC3409.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980283.34386098</real>
+			<key>timeStoppedRecording</key>
+			<real>568980305.21043897</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>11D67BD5-A761-4BCE-B0A4-A9B87EFC3409</string>
+		</dict>
+		<key>1D3DA6FD-3A93-4AE8-9B6B-6D915A8F95DD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1D3DA6FD-3A93-4AE8-9B6B-6D915A8F95DD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070996.99097598</real>
+			<key>timeStoppedRecording</key>
+			<real>569071105.768363</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1D3DA6FD-3A93-4AE8-9B6B-6D915A8F95DD</string>
+		</dict>
+		<key>1DDDBB0E-08EF-46F8-9705-818C2FB54B9A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1DDDBB0E-08EF-46F8-9705-818C2FB54B9A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980174.08820498</real>
+			<key>timeStoppedRecording</key>
+			<real>568980282.93311596</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1DDDBB0E-08EF-46F8-9705-818C2FB54B9A</string>
+		</dict>
+		<key>1E9DC1B9-22D5-47A6-BA85-94EE080804E5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1E9DC1B9-22D5-47A6-BA85-94EE080804E5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069319.54409099</real>
+			<key>timeStoppedRecording</key>
+			<real>569069355.79512501</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1E9DC1B9-22D5-47A6-BA85-94EE080804E5</string>
+		</dict>
+		<key>1EC038C0-0FC4-4D78-9B45-282C553E676A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1EC038C0-0FC4-4D78-9B45-282C553E676A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071314.38876998</real>
+			<key>timeStoppedRecording</key>
+			<real>569071383.47527301</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1EC038C0-0FC4-4D78-9B45-282C553E676A</string>
+		</dict>
+		<key>1FA6042C-60E2-4AAC-86F0-883482ADD748</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1FA6042C-60E2-4AAC-86F0-883482ADD748.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974014.08146703</real>
+			<key>timeStoppedRecording</key>
+			<real>568974100.38041794</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1FA6042C-60E2-4AAC-86F0-883482ADD748</string>
+		</dict>
+		<key>2282DF4A-F9D8-4ACF-BE48-A94121276DD6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2282DF4A-F9D8-4ACF-BE48-A94121276DD6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072601.68365395</real>
+			<key>timeStoppedRecording</key>
+			<real>569072695.77299201</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>2282DF4A-F9D8-4ACF-BE48-A94121276DD6</string>
+		</dict>
+		<key>22D37112-F8A9-4BD1-ABE0-8D7BF6D3C96C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>22D37112-F8A9-4BD1-ABE0-8D7BF6D3C96C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073541.200351</real>
+			<key>timeStoppedRecording</key>
+			<real>569073699.52984595</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>22D37112-F8A9-4BD1-ABE0-8D7BF6D3C96C</string>
+		</dict>
+		<key>253CA7ED-E0A9-4C45-8AC1-227CE05D2A76</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>253CA7ED-E0A9-4C45-8AC1-227CE05D2A76.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071139.81045604</real>
+			<key>timeStoppedRecording</key>
+			<real>569071179.71498001</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>253CA7ED-E0A9-4C45-8AC1-227CE05D2A76</string>
+		</dict>
+		<key>3527A484-4D97-4874-9257-C7C59D94F7C7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3527A484-4D97-4874-9257-C7C59D94F7C7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071500.87363195</real>
+			<key>timeStoppedRecording</key>
+			<real>569071532.52983201</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>3527A484-4D97-4874-9257-C7C59D94F7C7</string>
+		</dict>
+		<key>3DCCBC02-66B9-4811-8B32-7BC8D6CADDE9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3DCCBC02-66B9-4811-8B32-7BC8D6CADDE9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980305.51144695</real>
+			<key>timeStoppedRecording</key>
+			<real>568980325.746122</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>3DCCBC02-66B9-4811-8B32-7BC8D6CADDE9</string>
+		</dict>
+		<key>420DF224-1C42-4734-B3BA-03DE9AC986A5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>420DF224-1C42-4734-B3BA-03DE9AC986A5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568978932.69156098</real>
+			<key>timeStoppedRecording</key>
+			<real>568979014.13407695</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>420DF224-1C42-4734-B3BA-03DE9AC986A5</string>
+		</dict>
+		<key>43907E1C-9ED2-4B1C-8B0E-2642F4F64334</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>43907E1C-9ED2-4B1C-8B0E-2642F4F64334.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569068877.45799696</real>
+			<key>timeStoppedRecording</key>
+			<real>569068916.83196795</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>43907E1C-9ED2-4B1C-8B0E-2642F4F64334</string>
+		</dict>
+		<key>47FB3FB7-A083-4F63-920F-71274F3C71D9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>47FB3FB7-A083-4F63-920F-71274F3C71D9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073079.17907596</real>
+			<key>timeStoppedRecording</key>
+			<real>569073114.61222303</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>47FB3FB7-A083-4F63-920F-71274F3C71D9</string>
+		</dict>
+		<key>4C7A9FF5-368F-4883-847E-E64BA7664665</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4C7A9FF5-368F-4883-847E-E64BA7664665.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073245.209728</real>
+			<key>timeStoppedRecording</key>
+			<real>569073386.62219405</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>4C7A9FF5-368F-4883-847E-E64BA7664665</string>
+		</dict>
+		<key>4DFDEA8A-4AA3-4EED-AADF-BF7AFF3A59B8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4DFDEA8A-4AA3-4EED-AADF-BF7AFF3A59B8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072916.77416694</real>
+			<key>timeStoppedRecording</key>
+			<real>569072943.66068804</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>4DFDEA8A-4AA3-4EED-AADF-BF7AFF3A59B8</string>
+		</dict>
+		<key>56DBED93-9247-444C-87A0-B9F9955D909B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>56DBED93-9247-444C-87A0-B9F9955D909B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073710.90724897</real>
+			<key>timeStoppedRecording</key>
+			<real>569074401.66020703</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>56DBED93-9247-444C-87A0-B9F9955D909B</string>
+		</dict>
+		<key>5DA00DA1-B3EB-42BF-A34B-E004BEA857F1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5DA00DA1-B3EB-42BF-A34B-E004BEA857F1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980397.42489004</real>
+			<key>timeStoppedRecording</key>
+			<real>568980474.54219306</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>5DA00DA1-B3EB-42BF-A34B-E004BEA857F1</string>
+		</dict>
+		<key>5E3D8CC3-2CCD-49FA-B856-A8EF0787C4E7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5E3D8CC3-2CCD-49FA-B856-A8EF0787C4E7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072301.00345004</real>
+			<key>timeStoppedRecording</key>
+			<real>569072397.91777503</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>5E3D8CC3-2CCD-49FA-B856-A8EF0787C4E7</string>
+		</dict>
+		<key>60ECEACD-A3EA-4EC5-8527-E9FDA8A4A21F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>60ECEACD-A3EA-4EC5-8527-E9FDA8A4A21F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070125.03783298</real>
+			<key>timeStoppedRecording</key>
+			<real>569070172.92783999</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>60ECEACD-A3EA-4EC5-8527-E9FDA8A4A21F</string>
+		</dict>
+		<key>643AA48B-37C1-4933-823C-F0001F699388</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>643AA48B-37C1-4933-823C-F0001F699388.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071181.34599698</real>
+			<key>timeStoppedRecording</key>
+			<real>569071239.35272503</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>643AA48B-37C1-4933-823C-F0001F699388</string>
+		</dict>
+		<key>64ED9A62-88C5-41EF-9E35-F54C3FCABBEE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>64ED9A62-88C5-41EF-9E35-F54C3FCABBEE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975221.96283197</real>
+			<key>timeStoppedRecording</key>
+			<real>568975373.19435596</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>64ED9A62-88C5-41EF-9E35-F54C3FCABBEE</string>
+		</dict>
+		<key>651CD023-AFD5-44E7-BB4E-382903C47A5D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>651CD023-AFD5-44E7-BB4E-382903C47A5D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070803.24247301</real>
+			<key>timeStoppedRecording</key>
+			<real>569070862.88646197</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>651CD023-AFD5-44E7-BB4E-382903C47A5D</string>
+		</dict>
+		<key>697147BE-DA43-4940-B958-74B8753E8843</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>697147BE-DA43-4940-B958-74B8753E8843.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072000.94138896</real>
+			<key>timeStoppedRecording</key>
+			<real>569072080.80506301</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>697147BE-DA43-4940-B958-74B8753E8843</string>
+		</dict>
+		<key>6BDD75FA-9333-4297-A651-B5B20A8FE74F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6BDD75FA-9333-4297-A651-B5B20A8FE74F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568983395.69076705</real>
+			<key>timeStoppedRecording</key>
+			<real>568984915.487746</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>6BDD75FA-9333-4297-A651-B5B20A8FE74F</string>
+		</dict>
+		<key>712579A5-831D-4F05-A588-7B7AA48B9B49</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>712579A5-831D-4F05-A588-7B7AA48B9B49.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071385.30079603</real>
+			<key>timeStoppedRecording</key>
+			<real>569071476.48105204</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>712579A5-831D-4F05-A588-7B7AA48B9B49</string>
+		</dict>
+		<key>74ECED78-DB07-4651-9AE2-F62FEE63A842</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>74ECED78-DB07-4651-9AE2-F62FEE63A842.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568985638.71991503</real>
+			<key>timeStoppedRecording</key>
+			<real>568985687.03128505</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>74ECED78-DB07-4651-9AE2-F62FEE63A842</string>
+		</dict>
+		<key>755E942B-74A8-4EA7-91B5-9DD48105B90E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>755E942B-74A8-4EA7-91B5-9DD48105B90E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979601.12646401</real>
+			<key>timeStoppedRecording</key>
+			<real>568979815.23507297</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>755E942B-74A8-4EA7-91B5-9DD48105B90E</string>
+		</dict>
+		<key>75DB17D0-06B4-4D74-B327-97D4375D4FC6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>75DB17D0-06B4-4D74-B327-97D4375D4FC6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974480.84524095</real>
+			<key>timeStoppedRecording</key>
+			<real>568974500.48083496</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>75DB17D0-06B4-4D74-B327-97D4375D4FC6</string>
+		</dict>
+		<key>7C1C3711-2A49-40AE-A595-A2722B212E0E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7C1C3711-2A49-40AE-A595-A2722B212E0E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975985.52637804</real>
+			<key>timeStoppedRecording</key>
+			<real>568975995.75985897</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>7C1C3711-2A49-40AE-A595-A2722B212E0E</string>
+		</dict>
+		<key>8BCDB505-67DE-42C6-9986-95F803FC5547</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8BCDB505-67DE-42C6-9986-95F803FC5547.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069843.93241</real>
+			<key>timeStoppedRecording</key>
+			<real>569069996.38958001</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8BCDB505-67DE-42C6-9986-95F803FC5547</string>
+		</dict>
+		<key>8E4EF897-D399-4266-8108-CCFA2523FC95</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8E4EF897-D399-4266-8108-CCFA2523FC95.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974962.498927</real>
+			<key>timeStoppedRecording</key>
+			<real>568975015.27097499</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8E4EF897-D399-4266-8108-CCFA2523FC95</string>
+		</dict>
+		<key>8F1452E3-0F33-4D3B-B403-A1348B44A96F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8F1452E3-0F33-4D3B-B403-A1348B44A96F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071107.52154505</real>
+			<key>timeStoppedRecording</key>
+			<real>569071138.17157698</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8F1452E3-0F33-4D3B-B403-A1348B44A96F</string>
+		</dict>
+		<key>96B4CA32-F714-4C0F-8C5D-1AE0DE066A49</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>96B4CA32-F714-4C0F-8C5D-1AE0DE066A49.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072400.60623705</real>
+			<key>timeStoppedRecording</key>
+			<real>569072534.07692695</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>96B4CA32-F714-4C0F-8C5D-1AE0DE066A49</string>
+		</dict>
+		<key>98EFB564-F4C6-4E09-83C4-8680161C527F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>98EFB564-F4C6-4E09-83C4-8680161C527F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974162.07888198</real>
+			<key>timeStoppedRecording</key>
+			<real>568974240.61302805</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>98EFB564-F4C6-4E09-83C4-8680161C527F</string>
+		</dict>
+		<key>9FFA53E7-3E99-4E69-93C8-216661FB7B35</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9FFA53E7-3E99-4E69-93C8-216661FB7B35.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069799.72854304</real>
+			<key>timeStoppedRecording</key>
+			<real>569069836.98740304</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>9FFA53E7-3E99-4E69-93C8-216661FB7B35</string>
+		</dict>
+		<key>A2E936BA-8228-4608-A711-228252FB3A61</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A2E936BA-8228-4608-A711-228252FB3A61.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568984920.96385801</real>
+			<key>timeStoppedRecording</key>
+			<real>568984950.404971</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>A2E936BA-8228-4608-A711-228252FB3A61</string>
+		</dict>
+		<key>A2FB6FDB-72B7-43EA-A6CA-40AC0AE398B7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A2FB6FDB-72B7-43EA-A6CA-40AC0AE398B7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979143.99887204</real>
+			<key>timeStoppedRecording</key>
+			<real>568979561.74460006</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>A2FB6FDB-72B7-43EA-A6CA-40AC0AE398B7</string>
+		</dict>
+		<key>AC893310-9032-4FDA-9099-B8C0C7580C17</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AC893310-9032-4FDA-9099-B8C0C7580C17.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568976010.03038001</real>
+			<key>timeStoppedRecording</key>
+			<real>568976101.55302799</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>AC893310-9032-4FDA-9099-B8C0C7580C17</string>
+		</dict>
+		<key>AD281405-F392-4270-88E7-126A5505A323</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AD281405-F392-4270-88E7-126A5505A323.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568985040.54510903</real>
+			<key>timeStoppedRecording</key>
+			<real>568985195.79491901</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>AD281405-F392-4270-88E7-126A5505A323</string>
+		</dict>
+		<key>AD71F030-EDA3-488E-B90C-16FD0910D24A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AD71F030-EDA3-488E-B90C-16FD0910D24A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979019.28459704</real>
+			<key>timeStoppedRecording</key>
+			<real>568979072.69963801</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>AD71F030-EDA3-488E-B90C-16FD0910D24A</string>
+		</dict>
+		<key>B5821759-46A0-4B47-8EE9-4A0938DC9370</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B5821759-46A0-4B47-8EE9-4A0938DC9370.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974323.47738504</real>
+			<key>timeStoppedRecording</key>
+			<real>568974354.553882</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B5821759-46A0-4B47-8EE9-4A0938DC9370</string>
+		</dict>
+		<key>B5BF77CA-9D3B-4AB2-AAF2-7AE2D2843208</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B5BF77CA-9D3B-4AB2-AAF2-7AE2D2843208.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975166.25960898</real>
+			<key>timeStoppedRecording</key>
+			<real>568975185.81460595</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B5BF77CA-9D3B-4AB2-AAF2-7AE2D2843208</string>
+		</dict>
+		<key>BBBEB188-0525-4B28-9446-39DED902561C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BBBEB188-0525-4B28-9446-39DED902561C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975189.96087599</real>
+			<key>timeStoppedRecording</key>
+			<real>568975205.39723694</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>BBBEB188-0525-4B28-9446-39DED902561C</string>
+		</dict>
+		<key>BD3FA510-5461-422D-8572-A51BFE5D5563</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BD3FA510-5461-422D-8572-A51BFE5D5563.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568984950.79702795</real>
+			<key>timeStoppedRecording</key>
+			<real>568985039.28166902</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>BD3FA510-5461-422D-8572-A51BFE5D5563</string>
+		</dict>
+		<key>C4EC9AD5-87FD-404D-A78A-D8B08835A65C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C4EC9AD5-87FD-404D-A78A-D8B08835A65C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070291.37242699</real>
+			<key>timeStoppedRecording</key>
+			<real>569070385.18457699</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>C4EC9AD5-87FD-404D-A78A-D8B08835A65C</string>
+		</dict>
+		<key>C99179A3-815F-4328-ADC4-29BDDAF59A6A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C99179A3-815F-4328-ADC4-29BDDAF59A6A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071540.75463796</real>
+			<key>timeStoppedRecording</key>
+			<real>569071988.28733802</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>C99179A3-815F-4328-ADC4-29BDDAF59A6A</string>
+		</dict>
+		<key>D1D0AD04-2FD7-4888-BE53-45CD4EB45AD1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D1D0AD04-2FD7-4888-BE53-45CD4EB45AD1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568557080.67541397</real>
+			<key>timeStoppedRecording</key>
+			<real>568557198.79902303</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D1D0AD04-2FD7-4888-BE53-45CD4EB45AD1</string>
+		</dict>
+		<key>D5FE0C06-D982-49F0-BFBE-91D001B42B17</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D5FE0C06-D982-49F0-BFBE-91D001B42B17.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569064787.45808899</real>
+			<key>timeStoppedRecording</key>
+			<real>569064889.930493</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D5FE0C06-D982-49F0-BFBE-91D001B42B17</string>
+		</dict>
+		<key>D6BF7DB0-8F3C-4A02-A530-FEA644265636</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D6BF7DB0-8F3C-4A02-A530-FEA644265636.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975378.99339497</real>
+			<key>timeStoppedRecording</key>
+			<real>568975582.74122405</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D6BF7DB0-8F3C-4A02-A530-FEA644265636</string>
+		</dict>
+		<key>D8AF0C14-EA37-4287-A68A-32EFD4852290</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D8AF0C14-EA37-4287-A68A-32EFD4852290.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072697.76432705</real>
+			<key>timeStoppedRecording</key>
+			<real>569072885.34025395</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D8AF0C14-EA37-4287-A68A-32EFD4852290</string>
+		</dict>
+		<key>DA669459-4DDC-4C5A-8517-03BA66C788C9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DA669459-4DDC-4C5A-8517-03BA66C788C9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975729.99067402</real>
+			<key>timeStoppedRecording</key>
+			<real>568975977.65569103</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>DA669459-4DDC-4C5A-8517-03BA66C788C9</string>
+		</dict>
+		<key>DBDC4627-77AB-4FF8-BC68-8E8DACD89AE4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DBDC4627-77AB-4FF8-BC68-8E8DACD89AE4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975587.84386599</real>
+			<key>timeStoppedRecording</key>
+			<real>568975696.35721505</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>DBDC4627-77AB-4FF8-BC68-8E8DACD89AE4</string>
+		</dict>
+		<key>DD1EAE64-C13D-4193-90D9-0C5BC2E01D88</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DD1EAE64-C13D-4193-90D9-0C5BC2E01D88.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975020.260355</real>
+			<key>timeStoppedRecording</key>
+			<real>568975161.43005705</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>DD1EAE64-C13D-4193-90D9-0C5BC2E01D88</string>
+		</dict>
+		<key>DF5B6F5B-4957-457A-9154-5C6A4EBB0483</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DF5B6F5B-4957-457A-9154-5C6A4EBB0483.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979924.76730204</real>
+			<key>timeStoppedRecording</key>
+			<real>568980001.18449795</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>DF5B6F5B-4957-457A-9154-5C6A4EBB0483</string>
+		</dict>
+		<key>E859211C-310C-46BF-B387-9FBB7EC1E80C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E859211C-310C-46BF-B387-9FBB7EC1E80C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073124.17314398</real>
+			<key>timeStoppedRecording</key>
+			<real>569073225.40072298</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>E859211C-310C-46BF-B387-9FBB7EC1E80C</string>
+		</dict>
+		<key>F0674949-3DF9-4F62-8250-9395BC536103</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F0674949-3DF9-4F62-8250-9395BC536103.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072084.99257696</real>
+			<key>timeStoppedRecording</key>
+			<real>569072296.43138802</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>F0674949-3DF9-4F62-8250-9395BC536103</string>
+		</dict>
+		<key>F349B9AC-448D-4CEC-BF50-E1AA6F8889CE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F349B9AC-448D-4CEC-BF50-E1AA6F8889CE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979819.19415402</real>
+			<key>timeStoppedRecording</key>
+			<real>568979924.34727299</real>
+			<key>title</key>
+			<string>Debug MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>F349B9AC-448D-4CEC-BF50-E1AA6F8889CE</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

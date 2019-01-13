@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRenderGroup.m \
+  /Users/gbs/Xcode/MessView/DerivedData/MessView/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/module.modulemap \
+  /Users/gbs/Xcode/MessView/Pods/Target\ Support\ Files/lottie-ios/lottie-ios-prefix.pch \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRenderGroup.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTRenderNode.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/LOTAnimatorNode.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/MacCompatability/LOTPlatformCompat.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTKeypath.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTModels.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPathAnimator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTFillRenderer.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTStrokeRenderer.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTNumberInterpolator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTPointInterpolator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTSizeInterpolator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTCircleAnimator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTRoundedRectAnimator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/ManipulatorNodes/LOTTrimPathNode.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStar.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolygonAnimator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/AnimatorNodes/LOTPolystarAnimator.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTGradientFillRender.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/RenderSystem/RenderNodes/LOTRepeaterRenderer.h \
+  /Users/gbs/Xcode/MessView/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRepeater.h

@@ -1,0 +1,6 @@
+framework module Pods_MessView {
+  umbrella header "Pods-MessView-umbrella.h"
+
+  export *
+  module * { export * }
+}

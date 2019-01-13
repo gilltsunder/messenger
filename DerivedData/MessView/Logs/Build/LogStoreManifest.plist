@@ -5,6 +5,2269 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>00EFB137-745B-4655-816D-F2FAA84EB74F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>00EFB137-745B-4655-816D-F2FAA84EB74F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974475.90114295</real>
+			<key>timeStoppedRecording</key>
+			<real>568974480.91420805</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>00EFB137-745B-4655-816D-F2FAA84EB74F</string>
+		</dict>
+		<key>01D60461-ADA1-4A8E-AB11-046E4009FBF1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>01D60461-ADA1-4A8E-AB11-046E4009FBF1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069799.29441905</real>
+			<key>timeStoppedRecording</key>
+			<real>569069799.85607696</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>01D60461-ADA1-4A8E-AB11-046E4009FBF1</string>
+		</dict>
+		<key>03BB787A-98C2-40D4-8FB2-8388E307C61F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>03BB787A-98C2-40D4-8FB2-8388E307C61F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071105.58559</real>
+			<key>timeStoppedRecording</key>
+			<real>569071107.60657406</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>03BB787A-98C2-40D4-8FB2-8388E307C61F</string>
+		</dict>
+		<key>0745D1A3-C3BA-4E8E-A336-5744FC420A52</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0745D1A3-C3BA-4E8E-A336-5744FC420A52.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072906.656389</real>
+			<key>timeStoppedRecording</key>
+			<real>569072916.86428499</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0745D1A3-C3BA-4E8E-A336-5744FC420A52</string>
+		</dict>
+		<key>08452303-FC2A-4D18-B538-7567BD357D8B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>08452303-FC2A-4D18-B538-7567BD357D8B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073235.71343696</real>
+			<key>timeStoppedRecording</key>
+			<real>569073245.30770004</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>08452303-FC2A-4D18-B538-7567BD357D8B</string>
+		</dict>
+		<key>0D1690A7-729A-436F-BF54-914EB2FFA5B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0D1690A7-729A-436F-BF54-914EB2FFA5B3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569068874.91757405</real>
+			<key>timeStoppedRecording</key>
+			<real>569068877.54736102</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0D1690A7-729A-436F-BF54-914EB2FFA5B3</string>
+		</dict>
+		<key>0DF8880E-2132-414B-811B-E9BED9D3F315</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0DF8880E-2132-414B-811B-E9BED9D3F315.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980050.74470305</real>
+			<key>timeStoppedRecording</key>
+			<real>568980055.62355101</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>0DF8880E-2132-414B-811B-E9BED9D3F315</string>
+		</dict>
+		<key>1024E5D7-44E8-467B-BC2A-FFF44F2FC013</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1024E5D7-44E8-467B-BC2A-FFF44F2FC013.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069619.36483097</real>
+			<key>timeStoppedRecording</key>
+			<real>569069624.74451196</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1024E5D7-44E8-467B-BC2A-FFF44F2FC013</string>
+		</dict>
+		<key>161EC2B2-56BB-4C2D-9EBE-0D65CFB4C44A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>161EC2B2-56BB-4C2D-9EBE-0D65CFB4C44A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980173.51786196</real>
+			<key>timeStoppedRecording</key>
+			<real>568980174.13148797</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>161EC2B2-56BB-4C2D-9EBE-0D65CFB4C44A</string>
+		</dict>
+		<key>17737B33-3C30-42B2-955B-EA5ED2B88F5E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>17737B33-3C30-42B2-955B-EA5ED2B88F5E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974159.01434302</real>
+			<key>timeStoppedRecording</key>
+			<real>568974162.12489498</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>17737B33-3C30-42B2-955B-EA5ED2B88F5E</string>
+		</dict>
+		<key>1A3A70F5-4D6D-43BA-BB4A-5F7540A8A885</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1A3A70F5-4D6D-43BA-BB4A-5F7540A8A885.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975999.44892704</real>
+			<key>timeStoppedRecording</key>
+			<real>568976010.10172606</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1A3A70F5-4D6D-43BA-BB4A-5F7540A8A885</string>
+		</dict>
+		<key>1C0A14B7-2A57-46EE-86B2-600FA4AE42C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1C0A14B7-2A57-46EE-86B2-600FA4AE42C8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071383.14243996</real>
+			<key>timeStoppedRecording</key>
+			<real>569071385.50862098</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>1C0A14B7-2A57-46EE-86B2-600FA4AE42C8</string>
+		</dict>
+		<key>2B320629-2DC4-4359-8E57-53F3A9DD919A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2B320629-2DC4-4359-8E57-53F3A9DD919A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975217.85859895</real>
+			<key>timeStoppedRecording</key>
+			<real>568975222.09193206</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>2B320629-2DC4-4359-8E57-53F3A9DD919A</string>
+		</dict>
+		<key>31227FEE-7F31-49C5-B848-3D7E72A0B36B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>31227FEE-7F31-49C5-B848-3D7E72A0B36B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072296.87624204</real>
+			<key>timeStoppedRecording</key>
+			<real>569072301.141734</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>31227FEE-7F31-49C5-B848-3D7E72A0B36B</string>
+		</dict>
+		<key>3388C761-2FD1-4846-9355-C1127BF1A93F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3388C761-2FD1-4846-9355-C1127BF1A93F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980305.08550596</real>
+			<key>timeStoppedRecording</key>
+			<real>568980305.55456805</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>3388C761-2FD1-4846-9355-C1127BF1A93F</string>
+		</dict>
+		<key>3C8F86C6-2ACE-40C4-8571-218F735828C1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C8F86C6-2ACE-40C4-8571-218F735828C1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979595.61284304</real>
+			<key>timeStoppedRecording</key>
+			<real>568979601.26161802</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>3C8F86C6-2ACE-40C4-8571-218F735828C1</string>
+		</dict>
+		<key>3D9FF162-F29B-4F0B-BFA3-E688DE8B8301</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3D9FF162-F29B-4F0B-BFA3-E688DE8B8301.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568984950.23995399</real>
+			<key>timeStoppedRecording</key>
+			<real>568984950.83556604</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>3D9FF162-F29B-4F0B-BFA3-E688DE8B8301</string>
+		</dict>
+		<key>51004043-B3D3-4BD0-BA3F-EAB50FD89A5F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>51004043-B3D3-4BD0-BA3F-EAB50FD89A5F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069314.39742804</real>
+			<key>timeStoppedRecording</key>
+			<real>569069319.63311601</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>51004043-B3D3-4BD0-BA3F-EAB50FD89A5F</string>
+		</dict>
+		<key>52898890-C2C9-4536-978D-622297A276F4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>52898890-C2C9-4536-978D-622297A276F4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073529.61601102</real>
+			<key>timeStoppedRecording</key>
+			<real>569073541.310552</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>52898890-C2C9-4536-978D-622297A276F4</string>
+		</dict>
+		<key>59687A8C-6B91-4A66-847A-0DDE71C94FD4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>59687A8C-6B91-4A66-847A-0DDE71C94FD4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980474.39726496</real>
+			<key>timeStoppedRecording</key>
+			<real>568980480.89437604</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>59687A8C-6B91-4A66-847A-0DDE71C94FD4</string>
+		</dict>
+		<key>5CBD42E9-1A22-4BE6-8A3D-DDFD52DD2209</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5CBD42E9-1A22-4BE6-8A3D-DDFD52DD2209.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073114.54252195</real>
+			<key>timeStoppedRecording</key>
+			<real>569073124.26851702</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>5CBD42E9-1A22-4BE6-8A3D-DDFD52DD2209</string>
+		</dict>
+		<key>609DF590-E075-4847-9113-3DC7860A9D35</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>609DF590-E075-4847-9113-3DC7860A9D35.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070802.68328595</real>
+			<key>timeStoppedRecording</key>
+			<real>569070803.31370795</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>609DF590-E075-4847-9113-3DC7860A9D35</string>
+		</dict>
+		<key>60F14EB5-F63D-4675-9562-F2DD9F34F030</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>60F14EB5-F63D-4675-9562-F2DD9F34F030.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980325.631742</real>
+			<key>timeStoppedRecording</key>
+			<real>568980326.08925402</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>60F14EB5-F63D-4675-9562-F2DD9F34F030</string>
+		</dict>
+		<key>610E855E-28AE-4DB9-97FE-64CB308FC3FC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>610E855E-28AE-4DB9-97FE-64CB308FC3FC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072695.51208198</real>
+			<key>timeStoppedRecording</key>
+			<real>569072697.90542698</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>610E855E-28AE-4DB9-97FE-64CB308FC3FC</string>
+		</dict>
+		<key>675637F8-6A21-46F1-9CA9-10C0AE1736FF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>675637F8-6A21-46F1-9CA9-10C0AE1736FF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071137.97360003</real>
+			<key>timeStoppedRecording</key>
+			<real>569071139.89479196</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>675637F8-6A21-46F1-9CA9-10C0AE1736FF</string>
+		</dict>
+		<key>6D2EFF58-F277-4859-A835-765DC734A5AE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6D2EFF58-F277-4859-A835-765DC734A5AE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975015.16750503</real>
+			<key>timeStoppedRecording</key>
+			<real>568975020.31047702</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>6D2EFF58-F277-4859-A835-765DC734A5AE</string>
+		</dict>
+		<key>6E56B9B8-0BDC-4ED9-92C0-7474DEB81A36</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6E56B9B8-0BDC-4ED9-92C0-7474DEB81A36.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979138.87678504</real>
+			<key>timeStoppedRecording</key>
+			<real>568979143.98642504</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>6E56B9B8-0BDC-4ED9-92C0-7474DEB81A36</string>
+		</dict>
+		<key>6F194A78-B0DF-4695-B0FC-49B6909DEF17</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6F194A78-B0DF-4695-B0FC-49B6909DEF17.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974957.12370396</real>
+			<key>timeStoppedRecording</key>
+			<real>568974962.68286204</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>6F194A78-B0DF-4695-B0FC-49B6909DEF17</string>
+		</dict>
+		<key>70593797-79BA-4DBF-B4A6-B4153B93FCD9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70593797-79BA-4DBF-B4A6-B4153B93FCD9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568978926.46301699</real>
+			<key>timeStoppedRecording</key>
+			<real>568978932.75294697</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>70593797-79BA-4DBF-B4A6-B4153B93FCD9</string>
+		</dict>
+		<key>73151DC4-BA1D-4516-9D6E-E40E6D64AA35</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>73151DC4-BA1D-4516-9D6E-E40E6D64AA35.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569068978.12058902</real>
+			<key>timeStoppedRecording</key>
+			<real>569068979.95919704</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>73151DC4-BA1D-4516-9D6E-E40E6D64AA35</string>
+		</dict>
+		<key>7327C742-55E4-40B4-9BAF-8F5956BB5E33</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7327C742-55E4-40B4-9BAF-8F5956BB5E33.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975205.27191305</real>
+			<key>timeStoppedRecording</key>
+			<real>568975206.51229894</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>7327C742-55E4-40B4-9BAF-8F5956BB5E33</string>
+		</dict>
+		<key>77380764-E5DB-4C56-8673-FF4C54823BB5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>77380764-E5DB-4C56-8673-FF4C54823BB5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974114.54327404</real>
+			<key>timeStoppedRecording</key>
+			<real>568974130.56086099</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>77380764-E5DB-4C56-8673-FF4C54823BB5</string>
+		</dict>
+		<key>7E7E0ACB-F9B0-4B88-8635-4BFC5BFE7B82</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7E7E0ACB-F9B0-4B88-8635-4BFC5BFE7B82.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072082.08301795</real>
+			<key>timeStoppedRecording</key>
+			<real>569072085.12674797</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>7E7E0ACB-F9B0-4B88-8635-4BFC5BFE7B82</string>
+		</dict>
+		<key>80384661-6C31-4575-83CF-13A538B4707C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>80384661-6C31-4575-83CF-13A538B4707C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069257.17945194</real>
+			<key>timeStoppedRecording</key>
+			<real>569069259.21778095</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>80384661-6C31-4575-83CF-13A538B4707C</string>
+		</dict>
+		<key>84689B95-3672-4BA6-8167-72F010D2D625</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>84689B95-3672-4BA6-8167-72F010D2D625.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072398.44724798</real>
+			<key>timeStoppedRecording</key>
+			<real>569072400.72175503</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>84689B95-3672-4BA6-8167-72F010D2D625</string>
+		</dict>
+		<key>86044322-3065-4F6C-AB56-D5C9E6A734E7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>86044322-3065-4F6C-AB56-D5C9E6A734E7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979924.21163702</real>
+			<key>timeStoppedRecording</key>
+			<real>568979924.81648505</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>86044322-3065-4F6C-AB56-D5C9E6A734E7</string>
+		</dict>
+		<key>8A0A5803-2C11-4C43-971C-4AEC9A742F04</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A0A5803-2C11-4C43-971C-4AEC9A742F04.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979005.68175304</real>
+			<key>timeStoppedRecording</key>
+			<real>568979006.59174597</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8A0A5803-2C11-4C43-971C-4AEC9A742F04</string>
+		</dict>
+		<key>8A5E1A7A-143C-430B-B4F1-16490B5FE7C3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A5E1A7A-143C-430B-B4F1-16490B5FE7C3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069723.93600905</real>
+			<key>timeStoppedRecording</key>
+			<real>569069729.13880599</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8A5E1A7A-143C-430B-B4F1-16490B5FE7C3</string>
+		</dict>
+		<key>8A7BD8CF-4626-4F05-BC75-8BE25B68D766</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8A7BD8CF-4626-4F05-BC75-8BE25B68D766.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069424.38465095</real>
+			<key>timeStoppedRecording</key>
+			<real>569069429.38449001</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8A7BD8CF-4626-4F05-BC75-8BE25B68D766</string>
+		</dict>
+		<key>8C1FEC98-25EF-4235-88C5-6703EFA65FD8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8C1FEC98-25EF-4235-88C5-6703EFA65FD8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975185.69150102</real>
+			<key>timeStoppedRecording</key>
+			<real>568975190.01079798</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>8C1FEC98-25EF-4235-88C5-6703EFA65FD8</string>
+		</dict>
+		<key>93E94435-63A1-41DD-8199-39BDA70BEFFC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>93E94435-63A1-41DD-8199-39BDA70BEFFC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568983390.22482097</real>
+			<key>timeStoppedRecording</key>
+			<real>568983395.75785196</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>93E94435-63A1-41DD-8199-39BDA70BEFFC</string>
+		</dict>
+		<key>987FF7B4-E19F-4EC5-B3A8-FAE5784C7371</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>987FF7B4-E19F-4EC5-B3A8-FAE5784C7371.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568983310.50609803</real>
+			<key>timeStoppedRecording</key>
+			<real>568983311.63159204</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>987FF7B4-E19F-4EC5-B3A8-FAE5784C7371</string>
+		</dict>
+		<key>99E7A736-5E44-4384-B01E-CABD9AE73D53</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>99E7A736-5E44-4384-B01E-CABD9AE73D53.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071537.09835196</real>
+			<key>timeStoppedRecording</key>
+			<real>569071540.96924996</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>99E7A736-5E44-4384-B01E-CABD9AE73D53</string>
+		</dict>
+		<key>9C16801B-414A-4680-A930-8C1434AABD07</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C16801B-414A-4680-A930-8C1434AABD07.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569067600.83570004</real>
+			<key>timeStoppedRecording</key>
+			<real>569067607.08517694</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>9C16801B-414A-4680-A930-8C1434AABD07</string>
+		</dict>
+		<key>9D57738F-FE72-4D98-9BB3-FEF9C70B74EA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D57738F-FE72-4D98-9BB3-FEF9C70B74EA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974311.27790499</real>
+			<key>timeStoppedRecording</key>
+			<real>568974323.54686999</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>9D57738F-FE72-4D98-9BB3-FEF9C70B74EA</string>
+		</dict>
+		<key>A25AEC71-9A8A-4DDA-88B0-3998D420B450</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A25AEC71-9A8A-4DDA-88B0-3998D420B450.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568985039.05831599</real>
+			<key>timeStoppedRecording</key>
+			<real>568985040.62907195</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>A25AEC71-9A8A-4DDA-88B0-3998D420B450</string>
+		</dict>
+		<key>A702AB4F-34D7-4B0B-95A8-E0414805CA84</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A702AB4F-34D7-4B0B-95A8-E0414805CA84.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568973815.16550601</real>
+			<key>timeStoppedRecording</key>
+			<real>568973815.56483603</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>A702AB4F-34D7-4B0B-95A8-E0414805CA84</string>
+		</dict>
+		<key>A7761210-2E57-4FAB-B230-A45A1B23D61B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A7761210-2E57-4FAB-B230-A45A1B23D61B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975985.17344701</real>
+			<key>timeStoppedRecording</key>
+			<real>568975985.58482802</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>A7761210-2E57-4FAB-B230-A45A1B23D61B</string>
+		</dict>
+		<key>AA83C7B7-0869-49A0-B47B-018D9A651127</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA83C7B7-0869-49A0-B47B-018D9A651127.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980397.01301003</real>
+			<key>timeStoppedRecording</key>
+			<real>568980397.47440898</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>AA83C7B7-0869-49A0-B47B-018D9A651127</string>
+		</dict>
+		<key>AC2B009C-38C5-4A12-91D5-D79BFD5FA798</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AC2B009C-38C5-4A12-91D5-D79BFD5FA798.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073699.56030297</real>
+			<key>timeStoppedRecording</key>
+			<real>569073710.99055099</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>AC2B009C-38C5-4A12-91D5-D79BFD5FA798</string>
+		</dict>
+		<key>B097A25D-FCB6-4F19-AF78-CBDC734D916D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B097A25D-FCB6-4F19-AF78-CBDC734D916D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979014.01345503</real>
+			<key>timeStoppedRecording</key>
+			<real>568979019.38791704</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B097A25D-FCB6-4F19-AF78-CBDC734D916D</string>
+		</dict>
+		<key>B3D58FF6-C1E4-4654-B354-F4A39B75D0D3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B3D58FF6-C1E4-4654-B354-F4A39B75D0D3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069836.56961799</real>
+			<key>timeStoppedRecording</key>
+			<real>569069844.07126296</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B3D58FF6-C1E4-4654-B354-F4A39B75D0D3</string>
+		</dict>
+		<key>B64AF30C-14F4-481A-8B88-07CBA8C7FCF7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B64AF30C-14F4-481A-8B88-07CBA8C7FCF7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569072599.265926</real>
+			<key>timeStoppedRecording</key>
+			<real>569072601.80408394</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B64AF30C-14F4-481A-8B88-07CBA8C7FCF7</string>
+		</dict>
+		<key>B88CED72-C243-4BFA-A4BE-DD65AA242015</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B88CED72-C243-4BFA-A4BE-DD65AA242015.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069694.65654802</real>
+			<key>timeStoppedRecording</key>
+			<real>569069702.97517002</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B88CED72-C243-4BFA-A4BE-DD65AA242015</string>
+		</dict>
+		<key>B9A4C5D7-1458-4D3B-8556-3286977AD14B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B9A4C5D7-1458-4D3B-8556-3286977AD14B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070124.61073101</real>
+			<key>timeStoppedRecording</key>
+			<real>569070125.11782897</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>B9A4C5D7-1458-4D3B-8556-3286977AD14B</string>
+		</dict>
+		<key>BB9A9ECF-9DC0-4A99-95CF-0231F1284295</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BB9A9ECF-9DC0-4A99-95CF-0231F1284295.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070992.93299794</real>
+			<key>timeStoppedRecording</key>
+			<real>569070997.20767701</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>BB9A9ECF-9DC0-4A99-95CF-0231F1284295</string>
+		</dict>
+		<key>BC4D808E-BC2F-4CAE-91DC-73C3EE5835E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BC4D808E-BC2F-4CAE-91DC-73C3EE5835E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569070284.38216197</real>
+			<key>timeStoppedRecording</key>
+			<real>569070291.64604402</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>BC4D808E-BC2F-4CAE-91DC-73C3EE5835E4</string>
+		</dict>
+		<key>BEA953E8-06B9-45F6-A47F-BD8462F0B8F7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BEA953E8-06B9-45F6-A47F-BD8462F0B8F7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975373.06828105</real>
+			<key>timeStoppedRecording</key>
+			<real>568975379.06210804</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>BEA953E8-06B9-45F6-A47F-BD8462F0B8F7</string>
+		</dict>
+		<key>C1BA36B9-8816-4247-B296-413186CAC58C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C1BA36B9-8816-4247-B296-413186CAC58C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568985633.98694503</real>
+			<key>timeStoppedRecording</key>
+			<real>568985638.94263101</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>C1BA36B9-8816-4247-B296-413186CAC58C</string>
+		</dict>
+		<key>C1BFB1B6-12F0-4AFF-A6C2-E704A1F00BBD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C1BFB1B6-12F0-4AFF-A6C2-E704A1F00BBD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071306.24879205</real>
+			<key>timeStoppedRecording</key>
+			<real>569071314.55997097</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>C1BFB1B6-12F0-4AFF-A6C2-E704A1F00BBD</string>
+		</dict>
+		<key>C9078A13-1CF6-4927-B49E-9223161C4CBF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C9078A13-1CF6-4927-B49E-9223161C4CBF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975161.34003401</real>
+			<key>timeStoppedRecording</key>
+			<real>568975166.24676704</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>C9078A13-1CF6-4927-B49E-9223161C4CBF</string>
+		</dict>
+		<key>C9E9D858-4DEB-4896-B84E-03AAC87CA87D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C9E9D858-4DEB-4896-B84E-03AAC87CA87D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069304.64362204</real>
+			<key>timeStoppedRecording</key>
+			<real>569069306.46413696</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>C9E9D858-4DEB-4896-B84E-03AAC87CA87D</string>
+		</dict>
+		<key>CB84FF65-840D-405D-9979-227A33C25436</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CB84FF65-840D-405D-9979-227A33C25436.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975569.54778099</real>
+			<key>timeStoppedRecording</key>
+			<real>568975570.68832695</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>CB84FF65-840D-405D-9979-227A33C25436</string>
+		</dict>
+		<key>CC8713EF-E146-4993-884C-E092F6D9DC20</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CC8713EF-E146-4993-884C-E092F6D9DC20.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569073069.44854403</real>
+			<key>timeStoppedRecording</key>
+			<real>569073079.28702295</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>CC8713EF-E146-4993-884C-E092F6D9DC20</string>
+		</dict>
+		<key>CD720D9C-11FD-4458-ACC6-0BD62A18855E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CD720D9C-11FD-4458-ACC6-0BD62A18855E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569064771.82736599</real>
+			<key>timeStoppedRecording</key>
+			<real>569064787.66530895</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>CD720D9C-11FD-4458-ACC6-0BD62A18855E</string>
+		</dict>
+		<key>CEF7EDDD-6513-4B52-9010-88171E906A43</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CEF7EDDD-6513-4B52-9010-88171E906A43.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071179.48554504</real>
+			<key>timeStoppedRecording</key>
+			<real>569071181.46931005</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>CEF7EDDD-6513-4B52-9010-88171E906A43</string>
+		</dict>
+		<key>D10BD101-0DBB-4B84-A732-3CC2E2CE0550</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D10BD101-0DBB-4B84-A732-3CC2E2CE0550.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568980282.80859005</real>
+			<key>timeStoppedRecording</key>
+			<real>568980283.39028704</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D10BD101-0DBB-4B84-A732-3CC2E2CE0550</string>
+		</dict>
+		<key>D5AA73E2-8E71-4FDC-978D-3A0C3E787D34</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D5AA73E2-8E71-4FDC-978D-3A0C3E787D34.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974416.30676794</real>
+			<key>timeStoppedRecording</key>
+			<real>568974420.59673798</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D5AA73E2-8E71-4FDC-978D-3A0C3E787D34</string>
+		</dict>
+		<key>D8189FF5-AC37-481F-9538-CF74A2254C66</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D8189FF5-AC37-481F-9538-CF74A2254C66.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568984915.38018799</real>
+			<key>timeStoppedRecording</key>
+			<real>568984921.03794396</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>D8189FF5-AC37-481F-9538-CF74A2254C66</string>
+		</dict>
+		<key>DC8DCF19-D8DD-4A54-8186-1A7DEF3A9051</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DC8DCF19-D8DD-4A54-8186-1A7DEF3A9051.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568973780.62829804</real>
+			<key>timeStoppedRecording</key>
+			<real>568973783.19223106</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>DC8DCF19-D8DD-4A54-8186-1A7DEF3A9051</string>
+		</dict>
+		<key>EA813960-F510-453A-94B8-E662C4CC4F00</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EA813960-F510-453A-94B8-E662C4CC4F00.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975705.00055003</real>
+			<key>timeStoppedRecording</key>
+			<real>568975730.18030298</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>EA813960-F510-453A-94B8-E662C4CC4F00</string>
+		</dict>
+		<key>F09B8297-8094-4A66-A96C-704E77DF109C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F09B8297-8094-4A66-A96C-704E77DF109C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071480.86224103</real>
+			<key>timeStoppedRecording</key>
+			<real>569071501.07029796</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>F09B8297-8094-4A66-A96C-704E77DF109C</string>
+		</dict>
+		<key>F51BC06E-AABC-4C19-8655-D1DE271DA0DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F51BC06E-AABC-4C19-8655-D1DE271DA0DE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568975582.62923002</real>
+			<key>timeStoppedRecording</key>
+			<real>568975588.04694998</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>F51BC06E-AABC-4C19-8655-D1DE271DA0DE</string>
+		</dict>
+		<key>F5D266B3-4325-413A-B305-1F896F8C827C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F5D266B3-4325-413A-B305-1F896F8C827C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568974008.25929797</real>
+			<key>timeStoppedRecording</key>
+			<real>568974014.231359</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>F5D266B3-4325-413A-B305-1F896F8C827C</string>
+		</dict>
+		<key>F7048B6A-424E-470B-943D-C28BDC127DF7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F7048B6A-424E-470B-943D-C28BDC127DF7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568979815.07304001</real>
+			<key>timeStoppedRecording</key>
+			<real>568979819.26294696</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>F7048B6A-424E-470B-943D-C28BDC127DF7</string>
+		</dict>
+		<key>FC3AE7BA-A9FD-4976-8264-C06D358D3AF3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FC3AE7BA-A9FD-4976-8264-C06D358D3AF3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569069786.64985299</real>
+			<key>timeStoppedRecording</key>
+			<real>569069797.41437304</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>FC3AE7BA-A9FD-4976-8264-C06D358D3AF3</string>
+		</dict>
+		<key>FCD2FABC-0265-4407-8FFF-3641851D995F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FCD2FABC-0265-4407-8FFF-3641851D995F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>568557080.20884001</real>
+			<key>timeStoppedRecording</key>
+			<real>568557080.79239798</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>FCD2FABC-0265-4407-8FFF-3641851D995F</string>
+		</dict>
+		<key>FF9AFC7B-E46D-4D2E-99C1-9A632F5041FF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FF9AFC7B-E46D-4D2E-99C1-9A632F5041FF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MessView project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MessView</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MessView</string>
+			<key>timeStartedRecording</key>
+			<real>569071993.41818297</real>
+			<key>timeStoppedRecording</key>
+			<real>569072001.04574704</real>
+			<key>title</key>
+			<string>Build MessView</string>
+			<key>uniqueIdentifier</key>
+			<string>FF9AFC7B-E46D-4D2E-99C1-9A632F5041FF</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

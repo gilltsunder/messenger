@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/gbs/Xcode/MessView/Pods/leveldb-library/util/arena.cc \
+  /Users/gbs/Xcode/MessView/Pods/Target\ Support\ Files/leveldb-library/leveldb-library-prefix.pch \
+  /Users/gbs/Xcode/MessView/Pods/leveldb-library/util/arena.h \
+  /Users/gbs/Xcode/MessView/Pods/leveldb-library/port/port.h \
+  /Users/gbs/Xcode/MessView/Pods/leveldb-library/port/port_posix.h \
+  /Users/gbs/Xcode/MessView/Pods/leveldb-library/port/atomic_pointer.h
