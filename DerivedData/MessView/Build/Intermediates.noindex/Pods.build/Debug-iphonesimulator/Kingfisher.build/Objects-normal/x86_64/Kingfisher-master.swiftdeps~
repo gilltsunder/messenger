@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "1d835dd2f845b33ebcb6d64b8d51d446"
-build_time: [1546326285, 414696000]
+build_time: [1548585034, 10574000]
 inputs:
   "/Users/gbs/Xcode/MessView/Pods/Kingfisher/Sources/AnimatedImageView.swift": [1545499945, 0]
   "/Users/gbs/Xcode/MessView/Pods/Kingfisher/Sources/Box.swift": [1545499945, 0]

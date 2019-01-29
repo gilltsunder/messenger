@@ -12,33 +12,35 @@ import Kingfisher
 
 class NewMessage: UIViewController {
     
-    @IBOutlet weak var ttableView: UITableView!
-
+    @IBOutlet weak var ttableView: UITableView! {
+        didSet {
+            let nib = UINib(nibName: String(describing: UserListCell.self), bundle: nil)
+            self.ttableView.register(nib, forCellReuseIdentifier: UserListCell.reuseIdentifier)
+        }
+    }
     
-    var users = [User]()
+    var users: [User] = [] {
+        didSet {
+            DispatchQueue.main.async {
+                self.ttableView.reloadData()
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let nib = UINib(nibName: "UserListCell", bundle: nil)
-        self.ttableView.register(nib, forCellReuseIdentifier: "UsersListCustomCell")
-        
         loadData()
     }
     
-    
     func loadData() {
-        Database.database().reference().child("users").observe(.childAdded) { (snapshot) in
-            if let dict = snapshot.value as? [String: AnyObject] {
-                
-                let user = User(dictionary: dict)
-                user.id = snapshot.key
-                 self.users.append(user)
-                
-                DispatchQueue.main.async(execute: {
-                    self.ttableView.reloadData()
-                })
+        Database.database().reference().child("users").observe(.childAdded) { [weak self] snapshot in
+            guard let self = self else { return }
+            guard let parameters = snapshot.value as? [String: Any],
+                let user = User(id: snapshot.key, userParameters: parameters) else {
+                    print("Fail to represent snapshot as [String: AnyObject]")
+                    return
             }
+            self.users.append(user)
         }
     }
     var NewView : MessageView?
@@ -50,33 +52,28 @@ extension NewMessage: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell: UserListCell = self.ttableView.dequeueReusableCell(withIdentifier: "UsersListCustomCell", for: indexPath) as? UserListCell else {
-            fatalError()
+        guard let cell = ttableView.dequeueReusableCell(withIdentifier: UserListCell.reuseIdentifier,
+                                                        for: indexPath) as? UserListCell else {
+                                                            return UITableViewCell()
         }
         
-        let data = users[indexPath.row]
-        let imgURL = URL(string: data.profileImageUrl!)
-        
-        cell.name.text = data.name
-        cell.caption.text = data.email
-        cell.userImg.kf.setImage(with: imgURL)
-        
+        let user = users[indexPath.row]
+        cell.setup(with: user)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 85
+        return UserListCell.preferredHeight
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         let user = self.users[indexPath.row]
+        let user = self.users[indexPath.row]
         nextStep(user: user)
-        
     }
-    func nextStep(user : User) {
+    
+    func nextStep(user: User) {
         let NewV = ChatLogController.makeFromStoryBoard()
         NewV.user = user
         navigationController?.pushViewController(NewV, animated: true)
-
     }
 }

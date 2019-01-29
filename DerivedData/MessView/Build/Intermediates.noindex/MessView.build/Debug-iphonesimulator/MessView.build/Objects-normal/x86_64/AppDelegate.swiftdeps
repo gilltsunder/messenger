@@ -6,13 +6,6 @@ provides-nominal:
 provides-member:
 - ["8MessView11AppDelegateC", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationDidBecomeActive"
-- "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
-- "applicationWillResignActive"
-- "applicationWillTerminate"
-- "window"
 depends-top-level:
 - "AppDelegate"
 - "Bool"

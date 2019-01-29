@@ -26,8 +26,8 @@
 	<string>FirebaseMLVisionLabelModel</string>
 	<string>FirebaseFirestore</string>
 	<string>FirebaseMLVisionFaceModel</string>
-	<string>FirebaseDatabase</string>
 	<string>CoreServices</string>
+	<string>FirebaseDatabase</string>
 	<string>unicode</string>
 	<string>FirebaseRemoteConfig</string>
 	<string>Kingfisher</string>
@@ -40,10 +40,10 @@
 	<string>Security</string>
 	<string>WatchKit</string>
 	<string>AppKit</string>
+	<string>Lottie</string>
 	<string>Fabric</string>
 	<string>FirebaseMLModelInterpreter</string>
 	<string>FirebaseCrash</string>
-	<string>Lottie</string>
 	<string>FirebaseInvites</string>
 	<string>netinet</string>
 	<string>FirebaseStorage</string>

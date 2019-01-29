@@ -13,12 +13,10 @@ import Kingfisher
 
 class ChatLog: UITableViewCell {
     
-    @IBOutlet weak var userImage: UIImageView!{
-        didSet{
-            
-             userImage.clipsToBounds = true
+    @IBOutlet weak var userImage: UIImageView! {
+        didSet {
+            userImage.clipsToBounds = true
             userImage.layer.cornerRadius = 35
-           
         }
     }
     @IBOutlet weak var messageText: UILabel!
@@ -26,25 +24,18 @@ class ChatLog: UITableViewCell {
     @IBOutlet weak var username: UILabel!
     
     var message: Message? {
-        didSet{
-            
+        didSet {
+            guard let message = message else { return }
             setupNameAndProfileImage()
-            
-            self.messageText.text = self.message?.text
-            
-            if let seconds = self.message?.timestamp?.doubleValue {
-                let timestampDate = Date(timeIntervalSince1970: seconds)
-                let dateFormatter = DateFormatter()
-                dateFormatter.dateFormat = "hh:mm a"
-                self.timestamp.text = dateFormatter.string(from: timestampDate)
-            }
+            self.messageText.text = message.text
+            self.timestamp.text = DateFormatter.timeOnlyDateFormatter.string(from: message.timestamp)
         }
     }
     
     fileprivate func setupNameAndProfileImage() {
         
-        if let id = message?.chatPartnerId() {
-          let ref = Database.database().reference().child("users").child(id)
+        if let id = message?.opponentId {
+            let ref = Database.database().reference().child("users").child(id)
             ref.observeSingleEvent(of: .value, with: { (snapshot) in
                 if let dict = snapshot.value as? [String: AnyObject] {
                     self.username.text = dict["name"] as? String
@@ -54,20 +45,8 @@ class ChatLog: UITableViewCell {
                         self.userImage.kf.setImage(with: imgUrl!)
                     }
                 }
-              }, withCancel: nil)
+            }, withCancel: nil)
         }
         
     }
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
 }

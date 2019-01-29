@@ -36,6 +36,8 @@
 		6E9DF38F21D260910071FD94 /* UserListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9DF38D21D260910071FD94 /* UserListCell.xib */; };
 		6E9DF39421D297720071FD94 /* ChatLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9DF39221D297720071FD94 /* ChatLog.swift */; };
 		6E9DF39521D297720071FD94 /* ChatLog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9DF39321D297720071FD94 /* ChatLog.xib */; };
+		6EEF96C6220013BD00F5D48E /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF96C4220013BC00F5D48E /* DateFormatters.swift */; };
+		6EEF96C7220013BD00F5D48E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF96C5220013BC00F5D48E /* StringExtensions.swift */; };
 		6EF9406521D41F0F0055FCCF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9406421D41F0F0055FCCF /* User.swift */; };
 		6EF9406721D41FEE0055FCCF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9406621D41FEE0055FCCF /* Message.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +74,8 @@
 		6E9DF38D21D260910071FD94 /* UserListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCell.xib; sourceTree = "<group>"; };
 		6E9DF39221D297720071FD94 /* ChatLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLog.swift; sourceTree = "<group>"; };
 		6E9DF39321D297720071FD94 /* ChatLog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatLog.xib; sourceTree = "<group>"; };
+		6EEF96C4220013BC00F5D48E /* DateFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		6EEF96C5220013BC00F5D48E /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		6EF9406421D41F0F0055FCCF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6EF9406621D41FEE0055FCCF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		88E7107EDB59C0CF3F276050 /* Pods_MessView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +115,7 @@
 		6E893F4D21CAA79300AB4777 /* MessView */ = {
 			isa = PBXGroup;
 			children = (
+				6EEF96C3220013BC00F5D48E /* Extensions */,
 				6E9DF38721D245080071FD94 /* Model */,
 				6E9DF38621D23C2D0071FD94 /* Controller */,
 				6E893F5221CAA79300AB4777 /* Main.storyboard */,
@@ -184,6 +189,15 @@
 				6EF9406621D41FEE0055FCCF /* Message.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6EEF96C3220013BC00F5D48E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EEF96C4220013BC00F5D48E /* DateFormatters.swift */,
+				6EEF96C5220013BC00F5D48E /* StringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DE8871CA3090BC4D35DC899C /* Frameworks */ = {
@@ -353,11 +367,13 @@
 				6E4C126021CE990200390B1A /* Registration.swift in Sources */,
 				6E893F5721CAA79300AB4777 /* MessView.xcdatamodeld in Sources */,
 				6EF9406521D41F0F0055FCCF /* User.swift in Sources */,
+				6EEF96C6220013BD00F5D48E /* DateFormatters.swift in Sources */,
 				6E04001721E355DF002064D1 /* ChatMessageCell.swift in Sources */,
 				6E4C126E21CF5D2A00390B1A /* NewMessage.swift in Sources */,
 				6E4C127021CF5FE600390B1A /* ChatLogController.swift in Sources */,
 				6E893F4F21CAA79300AB4777 /* AppDelegate.swift in Sources */,
 				6E4C126221CE9A7C00390B1A /* Loggin.swift in Sources */,
+				6EEF96C7220013BD00F5D48E /* StringExtensions.swift in Sources */,
 				6EF9406721D41FEE0055FCCF /* Message.swift in Sources */,
 				6E4C126621CEE1B200390B1A /* MessageView.swift in Sources */,
 			);

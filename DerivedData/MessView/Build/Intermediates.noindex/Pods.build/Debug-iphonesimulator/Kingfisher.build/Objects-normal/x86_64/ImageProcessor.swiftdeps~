@@ -83,7 +83,7 @@ depends-top-level:
 - "ImageProcessItem"
 - "ImageProcessor"
 - "Int"
-- "IntegerLiteralType"
+- !private "IntegerLiteralType"
 - !private "Kingfisher"
 - "KingfisherOptionsInfo"
 - "OptionSet"

@@ -56,7 +56,6 @@ depends-member:
 - ["SH", "kf"]
 - ["10KingfisherAAC", "Base"]
 - ["10KingfisherAAC", "base"]
-- ["10KingfisherAAC", "deinit"]
 - ["10KingfisherAAC", "init"]
 - ["10Kingfisher0A10CompatibleP", "CompatibleType"]
 - ["10Kingfisher0A10CompatibleP", "Kingfisher"]

@@ -10,8 +10,7 @@ import UIKit
 import Firebase
 
 class Registration: UIViewController {
-    
-    
+
     @IBOutlet var textFieldCollection: [UITextField]!{
         didSet{
             textFieldCollection.forEach {
@@ -63,8 +62,8 @@ class Registration: UIViewController {
     @IBAction func registrationButton(_ sender: Any) {
         Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (authResult, error) in
             if error != nil {
-            print(error!)
-            return
+                print(error!)
+                return
             } else {
                 if let imageData = self.selectedImage?.jpegData(compressionQuality: 0.1) {
                     let uid = authResult?.user.uid
@@ -94,8 +93,6 @@ class Registration: UIViewController {
                 
             }
         }
-        
-        
     }
     @IBAction func returnButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -104,16 +101,14 @@ class Registration: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
-
-    
 }
 
 extension Registration: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage{
-             selectedImage = image
+            selectedImage = image
             profileImage.image = image
         }
-       dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
 }

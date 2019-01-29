@@ -13,24 +13,43 @@ import Lottie
 
 class MessageView: UIViewController {
     
-    @IBOutlet weak var ttableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         currentUser()
         
-        self.ttableView.tableFooterView = UIView()
+        self.tableView.tableFooterView = UIView()
         let nib = UINib(nibName: "ChatLog", bundle: nil)
-        self.ttableView.register(nib, forCellReuseIdentifier: "ChatLog")
+        self.tableView.register(nib, forCellReuseIdentifier: "ChatLog")
     }
     
-    var messages = [Message]()
-    var messagesDictionary = [String: Message]()
-
+    var messages = [Message]() {
+        didSet {
+            messages = messages.sorted { $0.timestamp > $1.timestamp }
+            refreshUniqueMessages()
+        }
+    }
+    
+    var uniqueMessages: [Message] = [] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    
+    func refreshUniqueMessages() {
+        var chats: [String: Message] = [:]
+        for message in messages {
+            if chats[message.opponentId] == nil {
+                chats[message.opponentId] = message
+            }
+        }
+        uniqueMessages = chats.values.map { $0 }
+    }
+    
     func currentUser() {
         messages.removeAll()
-        messagesDictionary.removeAll()
-        ttableView.reloadData()
+        tableView.reloadData()
         observeUserMessage()
         
         let uid = Auth.auth().currentUser?.uid
@@ -81,39 +100,19 @@ class MessageView: UIViewController {
         }
         let ref = Database.database().reference().child("user-messages").child(uid)
         ref.observe(.childAdded, with: { (snapshot) in
-           
             let messagesId = snapshot.key
             let messagesReference = Database.database().reference().child("messages").child(messagesId)
-           
-             messagesReference.observeSingleEvent(of: .value, with: { (snapshot) in
-                
+            messagesReference.observeSingleEvent(of: .value, with: { (snapshot) in
                 if let dict = snapshot.value as? [String: AnyObject] {
-                    let message = Message(dictionary: dict)
-                    
-                    if let chatPartnerId = message.chatPartnerId() {
-                        self.messagesDictionary[chatPartnerId] = message
-                        
-                        self.messages = Array(self.messagesDictionary.values)
-                        self.messages.sort(by: { (message1, message2) -> Bool in
-                            
-                            return message1.timestamp!.int32Value > message2.timestamp!.int32Value
-                        })
+                    do {
+                        let message = try Message(from: dict)
+                        self.messages.append(message)
+                    } catch {
+                        print(error.localizedDescription)
                     }
-                    self.timer?.invalidate()
-                    self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.handleReloadTable), userInfo: nil, repeats: false)
-                    
                 }
             }, withCancel: nil)
         }, withCancel: nil)
-    }
-    
-    var timer: Timer?
-    @objc func handleReloadTable() {
-    
-        DispatchQueue.main.async(execute: {
-            print("we reload data")
-            self.ttableView.reloadData()
-        })
     }
     
     @IBAction func logOut(_ sender: Any) {
@@ -130,38 +129,30 @@ class MessageView: UIViewController {
 
 extension MessageView: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return messages.count
+        return uniqueMessages.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = ttableView.dequeueReusableCell(withIdentifier: "ChatLog", for: indexPath) as? ChatLog else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ChatLog", for: indexPath) as? ChatLog else {
             fatalError()
         }
-
-        let message = messages[indexPath.row]
+        
+        let message = uniqueMessages[indexPath.row]
         cell.message = message
-      
+        
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let message = messages[indexPath.row]
-        
-        guard let chatPartnerId = message.chatPartnerId() else {
-            return
-        }
-        
-        let ref = Database.database().reference().child("users").child(chatPartnerId)
+        let message = uniqueMessages[indexPath.row]
+        let ref = Database.database().reference().child("users").child(message.opponentId)
         ref.observeSingleEvent(of: .value, with: { (snapshot) in
             guard let dictionary = snapshot.value as? [String: AnyObject] else {
                 return
             }
-            
-            let user = User(dictionary: dictionary)
-            user.id = chatPartnerId
-            self.showChatControllerForUser(user: user)
-            
-            
+            if let user = User(id: snapshot.key, userParameters: dictionary) {
+                self.showChatControllerForUser(user: user)
+            }
         }, withCancel: nil)
     }
     

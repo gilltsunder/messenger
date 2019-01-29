@@ -2,112 +2,104 @@
 provides-top-level:
 - "User"
 provides-nominal:
-- "8MessView4UserC"
+- "8MessView4UserV"
 provides-member:
-- ["8MessView4UserC", ""]
+- ["8MessView4UserV", ""]
+- ["Se", ""]
+- ["8MessView4UserV", "init"]
+- ["Se", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AnyObject"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
-- "NSObject"
+- "Decodable"
+- !private "JSONDecoder"
+- !private "JSONSerialization"
 - "String"
 - !private "StringLiteralType"
+- "URL"
 - "User"
 depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "init"]
-- ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "email"]
-- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "data"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "name"]
-- !private ["s7CVarArgP", "profileImageUrl"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["Sl", "init"]
 - !private ["Sl", "init"]
 - !private ["Sl", "subscript"]
 - !private ["SL", "init"]
 - !private ["SL", "init"]
-- ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "email"]
-- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "name"]
-- !private ["s28CustomDebugStringConvertibleP", "profileImageUrl"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "flatMap"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
-- ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "email"]
-- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "data"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "name"]
-- !private ["s23CustomStringConvertibleP", "profileImageUrl"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
-- !private ["Se", "init"]
+- !private ["Se", "JSONDecoder"]
+- !private ["Se", "JSONSerialization"]
+- !private ["Se", "Self"]
+- !private ["Se", "flatMap"]
+- ["Se", "init"]
 - !private ["Se", "init"]
 - !private ["Se", "subscript"]
 - !private ["SD", "subscript"]
+- !private ["SE", "flatMap"]
 - !private ["SE", "init"]
 - !private ["SE", "init"]
 - !private ["SE", "subscript"]
-- ["SQ", ""]
-- !private ["SQ", "email"]
-- !private ["SQ", "id"]
+- !private ["SQ", "data"]
+- !private ["SQ", "flatMap"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
-- !private ["SQ", "name"]
-- !private ["SQ", "profileImageUrl"]
+- !private ["SQ", "prettyPrinted"]
 - !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["SH", ""]
-- !private ["SH", "email"]
-- !private ["SH", "id"]
+- !private ["SH", "data"]
+- !private ["SH", "flatMap"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
-- !private ["SH", "name"]
-- !private ["SH", "profileImageUrl"]
 - !private ["SH", "subscript"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So19NSJSONSerializationC", "data"]
 - !private ["10Kingfisher0A10CompatibleP", "init"]
 - !private ["10Kingfisher0A10CompatibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
-- ["So8NSObjectC", "AnyObject"]
-- ["So8NSObjectC", "String"]
-- ["So8NSObjectC", ""]
-- ["So8NSObjectC", "email"]
-- ["So8NSObjectC", "id"]
-- ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "name"]
-- ["So8NSObjectC", "profileImageUrl"]
-- ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "email"]
-- !private ["So8NSObjectP", "id"]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "name"]
-- !private ["So8NSObjectP", "profileImageUrl"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "data"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["Sq", "flatMap"]
 - !private ["Sm", "init"]
 - !private ["Sm", "init"]
+- !private ["SY", "prettyPrinted"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Kingfisher8ResourceP", "init"]
 - !private ["ST", "init"]
 - !private ["ST", "init"]
 - !private ["ST", "subscript"]
-- !private ["s12StaticStringV", "init"]
-- !private ["s12StaticStringV", "init"]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
 - !private ["SS", "init"]
 - !private ["SS", "init"]
 - !private ["Sy", "init"]
@@ -116,13 +108,15 @@ depends-member:
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- ["8MessView4UserC", "AnyObject"]
-- ["8MessView4UserC", "String"]
-- ["8MessView4UserC", "email"]
-- ["8MessView4UserC", "id"]
-- ["8MessView4UserC", "init"]
-- ["8MessView4UserC", "name"]
-- ["8MessView4UserC", "profileImageUrl"]
+- !private ["10Foundation3URLV", "init"]
+- ["8MessView4UserV", "String"]
+- ["8MessView4UserV", "URL"]
+- ["8MessView4UserV", "email"]
+- ["8MessView4UserV", "id"]
+- ["8MessView4UserV", "init"]
+- ["8MessView4UserV", "name"]
+- ["8MessView4UserV", "profileImageUrl"]
+- !private ["So20NSJSONWritingOptionsV", "prettyPrinted"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -131,15 +125,12 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "profileImageUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
@@ -147,42 +138,54 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "SK"
-- "s7CVarArgP"
+- !private "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
-- "s28CustomDebugStringConvertibleP"
+- !private "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
-- "s23CustomStringConvertibleP"
-- !private "Se"
+- !private "s23CustomStringConvertibleP"
+- "Se"
 - !private "SD"
 - !private "SE"
-- "SQ"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- "SH"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "So19NSJSONSerializationC"
 - !private "10Kingfisher0A10CompatibleP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
 - !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Kingfisher8ResourceP"
 - !private "ST"
-- !private "s12StaticStringV"
+- !private "s10SetAlgebraP"
 - !private "SS"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- "8MessView4UserC"
+- !private "10Foundation3URLV"
+- "8MessView4UserV"
+- !private "So20NSJSONWritingOptionsV"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
-- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
@@ -306,4 +309,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e63bfd10aa2cee8fa9c7053538310903"
+interface-hash: "4a9a2cfcd781bc2aab96067f0fad710d"

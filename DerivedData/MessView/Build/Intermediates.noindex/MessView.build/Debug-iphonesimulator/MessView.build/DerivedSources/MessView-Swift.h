@@ -165,7 +165,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import CoreGraphics;
 @import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -209,8 +208,6 @@ SWIFT_CLASS("_TtC8MessView7ChatLog")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified messageText;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timestamp;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified username;
-- (void)awakeFromNib;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -262,6 +259,10 @@ SWIFT_CLASS("_TtC8MessView15ChatMessageCell")
 @end
 
 
+
+
+
+
 SWIFT_CLASS("_TtC8MessView5Login")
 @interface Login : UIViewController
 @property (nonatomic, copy) IBOutletCollection(UITextField) NSArray<UITextField *> * _Null_unspecified textFieldCollection;
@@ -276,20 +277,12 @@ SWIFT_CLASS("_TtC8MessView5Login")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC8MessView7Message")
-@interface Message : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
-
 @class UITableView;
 
 SWIFT_CLASS("_TtC8MessView11MessageView")
 @interface MessageView : UIViewController
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified ttableView;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
-- (void)handleReloadTable;
 - (IBAction)logOut:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -345,23 +338,18 @@ SWIFT_CLASS("_TtC8MessView12Registration")
 @end
 
 
-SWIFT_CLASS("_TtC8MessView4User")
-@interface User : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
-
-
 SWIFT_CLASS("_TtC8MessView12UserListCell")
 @interface UserListCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified userImg;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified name;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified caption;
-- (void)awakeFromNib;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified userImg;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified name;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified caption;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

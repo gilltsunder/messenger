@@ -9,29 +9,28 @@
 import UIKit
 
 class UserListCell: UITableViewCell {
-
     
-    @IBOutlet weak var userImg: UIImageView!{
-        didSet{
+    @IBOutlet var userImg: UIImageView! {
+        didSet {
             userImg.clipsToBounds = true
             userImg.layer.cornerRadius = 15
         }
     }
-    @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var caption: UILabel!
     
-    
-    
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    @IBOutlet var name: UILabel!
+    @IBOutlet var caption: UILabel!
+}
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+extension UserListCell {
+    static let reuseIdentifier = "UsersListCustomCell"
+    static let preferredHeight: CGFloat = 85
+}
 
-        // Configure the view for the selected state
-    }
+extension UserListCell {
     
+    func setup(with user: User) {
+        userImg.kf.setImage(with: user.profileImageUrl)
+        name.text = user.name
+        caption.text = user.email
+    }
 }

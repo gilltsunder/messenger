@@ -188,7 +188,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="ttableView" destination="qtr-Wk-fk2" id="1Vq-co-Sdm"/>
+                        <outlet property="tableView" destination="qtr-Wk-fk2" id="PZz-HL-9t3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rng-wf-9bZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

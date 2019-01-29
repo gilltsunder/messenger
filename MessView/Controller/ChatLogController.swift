@@ -12,7 +12,7 @@ import Kingfisher
 
 
 class ChatLogController: UIViewController {
-
+    
     @IBOutlet weak var ccolectionView: UICollectionView!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var sendButton: UIButton!{
@@ -20,16 +20,16 @@ class ChatLogController: UIViewController {
             sendButton.addTarget(self, action: #selector(handleSend), for: .touchUpInside)
         }
     }
-
+    
     var user: User? {
         didSet{
-             navigationItem.title = user?.name
-               observeMessages()
+            navigationItem.title = user?.name
+            observeMessages()
         }
     }
-
+    
     var messages = [Message]()
-     let cellId = "cellId"
+    let cellId = "cellId"
     
     lazy var inputTextField: UITextField = {
         let textField = UITextField()
@@ -39,7 +39,7 @@ class ChatLogController: UIViewController {
         return textField
     }()
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -128,80 +128,79 @@ class ChatLogController: UIViewController {
             self.view.layoutIfNeeded()
         })
     }
-
+    
     func observeMessages() {
         guard let uid = Auth.auth().currentUser?.uid else {
             return
         }
-
+        
         let userMessagesRef = Database.database().reference().child("user-messages").child(uid)
         userMessagesRef.observe(.childAdded, with: { (snapshot) in
-
+            
             let messageId = snapshot.key
-
+            
             let messagesRef = Database.database().reference().child("messages").child(messageId)
             messagesRef.observeSingleEvent(of: .value, with: { (snapshot) in
-
-                guard let dict = snapshot.value as? [String: AnyObject] else {
-                    return
+                
+                guard let dict = snapshot.value as? [String: AnyObject],
+                    let message = try? Message(from: dict)else {
+                        return
                 }
-                let message = Message(dictionary: dict)
-
-                if message.chatPartnerId() == self.user?.id {
+                
+                if message.opponentId == self.user?.id {
                     self.messages.append(message)
-
+                    
                     DispatchQueue.main.async(execute: {
                         self.ccolectionView?.reloadData()
                     })
                 }
-
+                
             }, withCancel: nil)
-
+            
         }, withCancel: nil)
-
+        
     }
-
-
+    
+    
     @objc func handleSend() {
-
+        
         let ref = Database.database().reference().child("messages")
         let childRef = ref.childByAutoId()
-        let toId = user!.id!
-        let fromId = Auth.auth().currentUser?.uid
+        guard let toId = user?.id else { return }
+        guard let fromId = Auth.auth().currentUser?.uid else { return }
         let timestamp = Int(NSDate().timeIntervalSince1970)
-        let values = ["text" : inputTextField.text!, "toId": toId, "fromId": fromId!, "timestamp": timestamp] as [String : Any]
-
+        let values = ["text": inputTextField.text.safe, "toId": toId, "fromId": fromId, "timestamp": timestamp] as [String: Any]
+        
         childRef.updateChildValues(values) { (error, ref) in
-            if error != nil {
-                print(error ?? "")
+            if let error = error {
+                print(error)
                 return
             }
-              self.inputTextField.text = nil
-
-          guard let messageId = childRef.key else { return }
-
-            let userMessagesRef = Database.database().reference().child("user-messages").child(fromId!).child(messageId)
+            self.inputTextField.text = nil
+            
+            guard let messageId = childRef.key else { return }
+            
+            let userMessagesRef = Database.database().reference().child("user-messages").child(fromId).child(messageId)
             userMessagesRef.setValue(1)
-
+            
             let recipientUserMessagesRef = Database.database().reference().child("user-messages").child(toId).child(messageId)
             recipientUserMessagesRef.setValue(1)
-
         }
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         handleSend()
-        
         return true
     }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
-
+    
 }
 
 extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UITextFieldDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-         return messages.count
+        return messages.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -217,11 +216,8 @@ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegat
     }
     
     private func setupCell(cell: ChatMessageCell, message: Message) {
+        cell.profileImageView.kf.setImage(with: self.user?.profileImageUrl)
         
-        if let profileImage = self.user?.profileImageUrl {
-            let imgUrl = URL(string: profileImage)
-            cell.profileImageView.kf.setImage(with: imgUrl)
-        }
         if message.fromId == Auth.auth().currentUser?.uid {
             //outgoing blue
             cell.bubbleView.backgroundColor = UIColor(red: 0, green: 0.3373, blue: 0.8078, alpha: 1)
@@ -236,9 +232,7 @@ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegat
             cell.profileImageView.isHidden = false
             cell.bubbleViewRightAnchor?.isActive = false
             cell.bubbleViewLeftAnchor?.isActive = true
-            
         }
-        
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -273,9 +267,7 @@ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegat
     fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
         return input.rawValue
     }
-    
 }
-
 
 extension ChatLogController {
     static func makeFromStoryBoard() -> ChatLogController {
@@ -284,5 +276,4 @@ extension ChatLogController {
         return oldView as! ChatLogController
     }
 }
-
 

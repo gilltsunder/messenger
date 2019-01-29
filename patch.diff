@@ -1,0 +1,862 @@
+From e2746c5469c8de792da23fc7f271335a1f2e2759 Mon Sep 17 00:00:00 2001
+From: Maxim Kotliar <maximuss099@gmail.com>
+Date: Sun, 27 Jan 2019 17:11:34 +0200
+Subject: [PATCH] Some refactoring and codestyle fixes.
+
+---
+ Extensions/DateFormatters.swift             |  26 ++++++
+ Extensions/StringExtensions.swift           |  21 +++++
+ MessView.xcodeproj/project.pbxproj          |  16 ++++
+ MessView/AppDelegate.swift                  |   1 -
+ MessView/Base.lproj/Main.storyboard         |   2 +-
+ MessView/Controller/ChatLogController.swift |  49 +++++------
+ MessView/Controller/Loggin.swift            |   4 +-
+ MessView/Controller/MessageView.swift       |  93 ++++++++++-----------
+ MessView/Controller/NewMessage.swift        |  63 +++++++-------
+ MessView/Model/Message.swift                |  31 ++++---
+ MessView/Model/User.swift                   | 122 +++++++++++++++++++++++++---
+ MessView/View/ChatLog.swift                 |  37 ++-------
+ MessView/View/UserListCell.swift            |  33 ++++----
+ 13 files changed, 313 insertions(+), 185 deletions(-)
+ create mode 100644 Extensions/DateFormatters.swift
+ create mode 100644 Extensions/StringExtensions.swift
+
+diff --git a/Extensions/DateFormatters.swift b/Extensions/DateFormatters.swift
+new file mode 100644
+index 0000000..0234942
+--- /dev/null
++++ b/Extensions/DateFormatters.swift
+@@ -0,0 +1,26 @@
++//
++//  DateFormatters.swift
++//  MessView
++//
++//  Created by Maxim Kotliar on 1/27/19.
++//  Copyright © 2019 Влад Третьяк. All rights reserved.
++//
++
++import Foundation
++
++extension DateFormatter {
++
++    static let timeOnlyDateFormatter: DateFormatter = {
++        let formatter = DateFormatter()
++        formatter.dateFormat = "hh:mm a"
++        return formatter
++    }()
++}
++
++extension DateFormatter {
++
++    func string(from timeIntervalSince1970: TimeInterval) -> String? {
++        let date = Date(timeIntervalSince1970: timeIntervalSince1970)
++        return string(from: date)
++    }
++}
+diff --git a/Extensions/StringExtensions.swift b/Extensions/StringExtensions.swift
+new file mode 100644
+index 0000000..83d9f0f
+--- /dev/null
++++ b/Extensions/StringExtensions.swift
+@@ -0,0 +1,21 @@
++//
++//  StringExtensions.swift
++//  MessView
++//
++//  Created by Maxim Kotliar on 1/27/19.
++//  Copyright © 2019 Влад Третьяк. All rights reserved.
++//
++
++import Foundation
++
++extension Optional where Wrapped == String {
++
++    var safe: String {
++        switch self {
++        case .none:
++            return ""
++        case .some(let string):
++            return string
++        }
++    }
++}
+diff --git a/MessView.xcodeproj/project.pbxproj b/MessView.xcodeproj/project.pbxproj
+index e3bd831..ec0c26e 100644
+--- a/MessView.xcodeproj/project.pbxproj
++++ b/MessView.xcodeproj/project.pbxproj
+@@ -7,6 +7,8 @@
+ 	objects = {
+ 
+ /* Begin PBXBuildFile section */
++		19F6334B21FDF9F700EE804E /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6334A21FDF9F700EE804E /* DateFormatters.swift */; };
++		19F6334D21FDFC8F00EE804E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6334C21FDFC8F00EE804E /* StringExtensions.swift */; };
+ 		5CB3D9ED8CE08477F55AD338 /* Pods_MessView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E7107EDB59C0CF3F276050 /* Pods_MessView.framework */; };
+ 		6E04001721E355DF002064D1 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04001621E355DF002064D1 /* ChatMessageCell.swift */; };
+ 		6E4C126021CE990200390B1A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C125F21CE990200390B1A /* Registration.swift */; };
+@@ -41,6 +43,8 @@
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXFileReference section */
++		19F6334A21FDF9F700EE804E /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
++		19F6334C21FDFC8F00EE804E /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+ 		4292815669D708C8925CFAFA /* Pods-MessView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessView/Pods-MessView.debug.xcconfig"; sourceTree = "<group>"; };
+ 		6E04001621E355DF002064D1 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+ 		6E4C125F21CE990200390B1A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+@@ -90,9 +94,19 @@
+ /* End PBXFrameworksBuildPhase section */
+ 
+ /* Begin PBXGroup section */
++		19F6334921FDF9E800EE804E /* Extensions */ = {
++			isa = PBXGroup;
++			children = (
++				19F6334A21FDF9F700EE804E /* DateFormatters.swift */,
++				19F6334C21FDFC8F00EE804E /* StringExtensions.swift */,
++			);
++			path = Extensions;
++			sourceTree = "<group>";
++		};
+ 		6E893F4221CAA79300AB4777 = {
+ 			isa = PBXGroup;
+ 			children = (
++				19F6334921FDF9E800EE804E /* Extensions */,
+ 				6E893F4D21CAA79300AB4777 /* MessView */,
+ 				6E893F4C21CAA79300AB4777 /* Products */,
+ 				FBF4E43CF95705B2D14FEA1C /* Pods */,
+@@ -351,12 +365,14 @@
+ 				6E9DF39421D297720071FD94 /* ChatLog.swift in Sources */,
+ 				6E9DF38E21D260910071FD94 /* UserListCell.swift in Sources */,
+ 				6E4C126021CE990200390B1A /* Registration.swift in Sources */,
++				19F6334B21FDF9F700EE804E /* DateFormatters.swift in Sources */,
+ 				6E893F5721CAA79300AB4777 /* MessView.xcdatamodeld in Sources */,
+ 				6EF9406521D41F0F0055FCCF /* User.swift in Sources */,
+ 				6E04001721E355DF002064D1 /* ChatMessageCell.swift in Sources */,
+ 				6E4C126E21CF5D2A00390B1A /* NewMessage.swift in Sources */,
+ 				6E4C127021CF5FE600390B1A /* ChatLogController.swift in Sources */,
+ 				6E893F4F21CAA79300AB4777 /* AppDelegate.swift in Sources */,
++				19F6334D21FDFC8F00EE804E /* StringExtensions.swift in Sources */,
+ 				6E4C126221CE9A7C00390B1A /* Loggin.swift in Sources */,
+ 				6EF9406721D41FEE0055FCCF /* Message.swift in Sources */,
+ 				6E4C126621CEE1B200390B1A /* MessageView.swift in Sources */,
+diff --git a/MessView/AppDelegate.swift b/MessView/AppDelegate.swift
+index 603c86e..a1c2953 100644
+--- a/MessView/AppDelegate.swift
++++ b/MessView/AppDelegate.swift
+@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
+ 
+     var window: UIWindow?
+ 
+-
+     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+         FirebaseApp.configure()
+         // Override point for customization after application launch.
+diff --git a/MessView/Base.lproj/Main.storyboard b/MessView/Base.lproj/Main.storyboard
+index a017435..955959e 100644
+--- a/MessView/Base.lproj/Main.storyboard
++++ b/MessView/Base.lproj/Main.storyboard
+@@ -188,7 +188,7 @@
+                         </barButtonItem>
+                     </navigationItem>
+                     <connections>
+-                        <outlet property="ttableView" destination="qtr-Wk-fk2" id="1Vq-co-Sdm"/>
++                        <outlet property="tableView" destination="qtr-Wk-fk2" id="1Vq-co-Sdm"/>
+                     </connections>
+                 </viewController>
+                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rng-wf-9bZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+diff --git a/MessView/Controller/ChatLogController.swift b/MessView/Controller/ChatLogController.swift
+index 31a5a68..08be3e1 100644
+--- a/MessView/Controller/ChatLogController.swift
++++ b/MessView/Controller/ChatLogController.swift
+@@ -23,13 +23,13 @@ class ChatLogController: UIViewController {
+ 
+     var user: User? {
+         didSet{
+-             navigationItem.title = user?.name
+-               observeMessages()
++            navigationItem.title = user?.name
++            observeMessages()
+         }
+     }
+ 
+     var messages = [Message]()
+-     let cellId = "cellId"
++    let cellId = "cellId"
+     
+     lazy var inputTextField: UITextField = {
+         let textField = UITextField()
+@@ -142,12 +142,12 @@ class ChatLogController: UIViewController {
+             let messagesRef = Database.database().reference().child("messages").child(messageId)
+             messagesRef.observeSingleEvent(of: .value, with: { (snapshot) in
+ 
+-                guard let dict = snapshot.value as? [String: AnyObject] else {
+-                    return
++                guard let dict = snapshot.value as? [String: AnyObject],
++                    let message = try? Message(from: dict)else {
++                        return
+                 }
+-                let message = Message(dictionary: dict)
+ 
+-                if message.chatPartnerId() == self.user?.id {
++                if message.opponentId == self.user?.id {
+                     self.messages.append(message)
+ 
+                     DispatchQueue.main.async(execute: {
+@@ -166,33 +166,32 @@ class ChatLogController: UIViewController {
+ 
+         let ref = Database.database().reference().child("messages")
+         let childRef = ref.childByAutoId()
+-        let toId = user!.id!
+-        let fromId = Auth.auth().currentUser?.uid
++        guard let toId = user?.id else { return }
++        guard let fromId = Auth.auth().currentUser?.uid else { return }
+         let timestamp = Int(NSDate().timeIntervalSince1970)
+-        let values = ["text" : inputTextField.text!, "toId": toId, "fromId": fromId!, "timestamp": timestamp] as [String : Any]
++        let values = ["text": inputTextField.text.safe, "toId": toId, "fromId": fromId, "timestamp": timestamp] as [String: Any]
+ 
+         childRef.updateChildValues(values) { (error, ref) in
+-            if error != nil {
+-                print(error ?? "")
++            if let error = error {
++                print(error)
+                 return
+             }
+-              self.inputTextField.text = nil
++            self.inputTextField.text = nil
+ 
+-          guard let messageId = childRef.key else { return }
++            guard let messageId = childRef.key else { return }
+ 
+-            let userMessagesRef = Database.database().reference().child("user-messages").child(fromId!).child(messageId)
++            let userMessagesRef = Database.database().reference().child("user-messages").child(fromId).child(messageId)
+             userMessagesRef.setValue(1)
+ 
+             let recipientUserMessagesRef = Database.database().reference().child("user-messages").child(toId).child(messageId)
+             recipientUserMessagesRef.setValue(1)
+-
+         }
+     }
+     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+         handleSend()
+-        
+         return true
+     }
++
+     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+         view.endEditing(true)
+     }
+@@ -201,7 +200,7 @@ class ChatLogController: UIViewController {
+ 
+ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UITextFieldDelegate {
+     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+-         return messages.count
++        return messages.count
+     }
+     
+     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+@@ -217,11 +216,8 @@ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegat
+     }
+     
+     private func setupCell(cell: ChatMessageCell, message: Message) {
+-        
+-        if let profileImage = self.user?.profileImageUrl {
+-            let imgUrl = URL(string: profileImage)
+-            cell.profileImageView.kf.setImage(with: imgUrl)
+-        }
++        cell.profileImageView.kf.setImage(with: self.user?.profileImageUrl)
++
+         if message.fromId == Auth.auth().currentUser?.uid {
+             //outgoing blue
+             cell.bubbleView.backgroundColor = UIColor(red: 0, green: 0.3373, blue: 0.8078, alpha: 1)
+@@ -236,11 +232,9 @@ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegat
+             cell.profileImageView.isHidden = false
+             cell.bubbleViewRightAnchor?.isActive = false
+             cell.bubbleViewLeftAnchor?.isActive = true
+-            
+         }
+-        
+     }
+-    
++
+     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+         ccolectionView?.collectionViewLayout.invalidateLayout()
+     }
+@@ -273,10 +267,8 @@ extension ChatLogController: UICollectionViewDataSource, UICollectionViewDelegat
+     fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+         return input.rawValue
+     }
+-    
+ }
+ 
+-
+ extension ChatLogController {
+     static func makeFromStoryBoard() -> ChatLogController {
+         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+@@ -285,4 +277,3 @@ extension ChatLogController {
+     }
+ }
+ 
+-
+diff --git a/MessView/Controller/Loggin.swift b/MessView/Controller/Loggin.swift
+index be01523..9c38924 100644
+--- a/MessView/Controller/Loggin.swift
++++ b/MessView/Controller/Loggin.swift
+@@ -18,7 +18,9 @@ class Login: UIViewController {
+                 $0.backgroundColor = .black
+                 $0.tintColor = .white
+                 $0.textColor = .white
+-                $0.attributedPlaceholder = NSAttributedString(string: $0.placeholder!, attributes: [NSAttributedString.Key.foregroundColor:  UIColor(white: 1.0, alpha: 0.6)])
++                $0.attributedPlaceholder = NSAttributedString(string: $0.placeholder!,
++                                                              attributes: [NSAttributedString.Key.foregroundColor: UIColor(white: 1.0,
++                                                                                                                           alpha: 0.6)])
+                 let buttonlLayer = CALayer()
+                 buttonlLayer.frame = CGRect(x: 0, y: 27, width: 300, height: 0.6)
+                 buttonlLayer.backgroundColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 1).cgColor
+diff --git a/MessView/Controller/MessageView.swift b/MessView/Controller/MessageView.swift
+index 01e71fc..f1ea257 100644
+--- a/MessView/Controller/MessageView.swift
++++ b/MessView/Controller/MessageView.swift
+@@ -13,24 +13,49 @@ import Lottie
+ 
+ class MessageView: UIViewController {
+     
+-    @IBOutlet weak var ttableView: UITableView!
++    @IBOutlet weak var tableView: UITableView!
+     
+     override func viewDidLoad() {
+         super.viewDidLoad()
+         currentUser()
+         
+-        self.ttableView.tableFooterView = UIView()
++        self.tableView.tableFooterView = UIView()
+         let nib = UINib(nibName: "ChatLog", bundle: nil)
+-        self.ttableView.register(nib, forCellReuseIdentifier: "ChatLog")
++        self.tableView.register(nib, forCellReuseIdentifier: "ChatLog")
+     }
+     
+-    var messages = [Message]()
+-    var messagesDictionary = [String: Message]()
++    var messages = [Message]() {
++        didSet {
++            messages = messages.sorted { $0.timestamp > $1.timestamp }
++            refreshUniqueMessages()
++            // Please read about tableView update
++            //        ttableView.performBatchUpdates({
++            //            <#code#>
++            //        }) { (<#Bool#>) in
++            //            <#code#>
++            //        }
++        }
++    }
++
++    var uniqueMessages: [Message] = [] {
++        didSet {
++            tableView.reloadData()
++        }
++    }
++
++    func refreshUniqueMessages() {
++        var chats: [String: Message] = [:]
++        for message in messages {
++            if chats[message.opponentId] == nil {
++                chats[message.opponentId] = message
++            }
++        }
++        uniqueMessages = chats.values.map { $0 }
++    }
+ 
+     func currentUser() {
+         messages.removeAll()
+-        messagesDictionary.removeAll()
+-        ttableView.reloadData()
++        tableView.reloadData()
+         observeUserMessage()
+         
+         let uid = Auth.auth().currentUser?.uid
+@@ -81,41 +106,21 @@ class MessageView: UIViewController {
+         }
+         let ref = Database.database().reference().child("user-messages").child(uid)
+         ref.observe(.childAdded, with: { (snapshot) in
+-           
+             let messagesId = snapshot.key
+             let messagesReference = Database.database().reference().child("messages").child(messagesId)
+-           
+              messagesReference.observeSingleEvent(of: .value, with: { (snapshot) in
+-                
+                 if let dict = snapshot.value as? [String: AnyObject] {
+-                    let message = Message(dictionary: dict)
+-                    
+-                    if let chatPartnerId = message.chatPartnerId() {
+-                        self.messagesDictionary[chatPartnerId] = message
+-                        
+-                        self.messages = Array(self.messagesDictionary.values)
+-                        self.messages.sort(by: { (message1, message2) -> Bool in
+-                            
+-                            return message1.timestamp!.int32Value > message2.timestamp!.int32Value
+-                        })
++                    do {
++                        let message = try Message(from: dict)
++                        self.messages.append(message)
++                    } catch {
++                        print(error.localizedDescription)
+                     }
+-                    self.timer?.invalidate()
+-                    self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.handleReloadTable), userInfo: nil, repeats: false)
+-                    
+                 }
+             }, withCancel: nil)
+         }, withCancel: nil)
+     }
+     
+-    var timer: Timer?
+-    @objc func handleReloadTable() {
+-    
+-        DispatchQueue.main.async(execute: {
+-            print("we reload data")
+-            self.ttableView.reloadData()
+-        })
+-    }
+-    
+     @IBAction func logOut(_ sender: Any) {
+         do {
+             try Auth.auth().signOut()
+@@ -130,38 +135,30 @@ class MessageView: UIViewController {
+ 
+ extension MessageView: UITableViewDataSource, UITableViewDelegate {
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+-        return messages.count
++        return uniqueMessages.count
+     }
+     
+     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+-        guard let cell = ttableView.dequeueReusableCell(withIdentifier: "ChatLog", for: indexPath) as? ChatLog else {
++        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ChatLog", for: indexPath) as? ChatLog else {
+             fatalError()
+         }
+ 
+-        let message = messages[indexPath.row]
++        let message = uniqueMessages[indexPath.row]
+         cell.message = message
+       
+         return cell
+     }
+     
+     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+-        let message = messages[indexPath.row]
+-        
+-        guard let chatPartnerId = message.chatPartnerId() else {
+-            return
+-        }
+-        
+-        let ref = Database.database().reference().child("users").child(chatPartnerId)
++        let message = uniqueMessages[indexPath.row]
++        let ref = Database.database().reference().child("users").child(message.opponentId)
+         ref.observeSingleEvent(of: .value, with: { (snapshot) in
+             guard let dictionary = snapshot.value as? [String: AnyObject] else {
+                 return
+             }
+-            
+-            let user = User(dictionary: dictionary)
+-            user.id = chatPartnerId
+-            self.showChatControllerForUser(user: user)
+-            
+-            
++            if let user = User(id: snapshot.key, userParameters: dictionary) {
++                self.showChatControllerForUser(user: user)
++            }
+         }, withCancel: nil)
+     }
+     
+diff --git a/MessView/Controller/NewMessage.swift b/MessView/Controller/NewMessage.swift
+index 978e44a..935c011 100644
+--- a/MessView/Controller/NewMessage.swift
++++ b/MessView/Controller/NewMessage.swift
+@@ -12,33 +12,35 @@ import Kingfisher
+ 
+ class NewMessage: UIViewController {
+     
+-    @IBOutlet weak var ttableView: UITableView!
++    @IBOutlet weak var ttableView: UITableView! {
++        didSet {
++            let nib = UINib(nibName: String(describing: UserListCell.self), bundle: nil)
++            self.ttableView.register(nib, forCellReuseIdentifier: UserListCell.reuseIdentifier)
++        }
++    }
+ 
+-    
+-    var users = [User]()
++    var users: [User] = [] {
++        didSet {
++            DispatchQueue.main.async {
++                self.ttableView.reloadData()
++            }
++        }
++    }
+     
+     override func viewDidLoad() {
+         super.viewDidLoad()
+-        
+-        let nib = UINib(nibName: "UserListCell", bundle: nil)
+-        self.ttableView.register(nib, forCellReuseIdentifier: "UsersListCustomCell")
+-        
+         loadData()
+     }
+-    
+-    
++
+     func loadData() {
+-        Database.database().reference().child("users").observe(.childAdded) { (snapshot) in
+-            if let dict = snapshot.value as? [String: AnyObject] {
+-                
+-                let user = User(dictionary: dict)
+-                user.id = snapshot.key
+-                 self.users.append(user)
+-                
+-                DispatchQueue.main.async(execute: {
+-                    self.ttableView.reloadData()
+-                })
++        Database.database().reference().child("users").observe(.childAdded) { [weak self] snapshot in
++            guard let self = self else { return }
++            guard let parameters = snapshot.value as? [String: Any],
++            let user = User(id: snapshot.key, userParameters: parameters) else {
++                print("Fail to represent snapshot as [String: AnyObject]")
++                return
+             }
++            self.users.append(user)
+         }
+     }
+     var NewView : MessageView?
+@@ -50,33 +52,28 @@ extension NewMessage: UITableViewDataSource, UITableViewDelegate {
+     }
+     
+     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+-        guard let cell: UserListCell = self.ttableView.dequeueReusableCell(withIdentifier: "UsersListCustomCell", for: indexPath) as? UserListCell else {
+-            fatalError()
++        guard let cell = ttableView.dequeueReusableCell(withIdentifier: UserListCell.reuseIdentifier,
++                                                        for: indexPath) as? UserListCell else {
++                                                            return UITableViewCell()
+         }
+         
+-        let data = users[indexPath.row]
+-        let imgURL = URL(string: data.profileImageUrl!)
+-        
+-        cell.name.text = data.name
+-        cell.caption.text = data.email
+-        cell.userImg.kf.setImage(with: imgURL)
+-        
++        let user = users[indexPath.row]
++        cell.setup(with: user)
+         return cell
+     }
+     
+     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+-        return 85
++        return UserListCell.preferredHeight
+     }
+     
+     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+-         let user = self.users[indexPath.row]
++        let user = self.users[indexPath.row]
+         nextStep(user: user)
+-        
+     }
+-    func nextStep(user : User) {
++
++    func nextStep(user: User) {
+         let NewV = ChatLogController.makeFromStoryBoard()
+         NewV.user = user
+         navigationController?.pushViewController(NewV, animated: true)
+-
+     }
+ }
+diff --git a/MessView/Model/Message.swift b/MessView/Model/Message.swift
+index 9dcfbfc..657e2b3 100644
+--- a/MessView/Model/Message.swift
++++ b/MessView/Model/Message.swift
+@@ -9,21 +9,20 @@
+ import UIKit
+ import Firebase
+ 
+-class Message: NSObject {
+-    
+-    var fromId: String?
+-    var text: String?
+-    var timestamp: NSNumber?
+-    var toId: String?
+-    
+-    init(dictionary: [String: Any]) {
+-        self.fromId = dictionary["fromId"] as? String
+-        self.text = dictionary["text"] as? String
+-        self.toId = dictionary["toId"] as? String
+-        self.timestamp = dictionary["timestamp"] as? NSNumber
+-    }
+-    
+-    func chatPartnerId() -> String? {
+-        return fromId == Auth.auth().currentUser?.uid ? toId : fromId
++struct Message: Codable {
++    let fromId: String
++    let toId: String
++    let text: String?
++    /// Prefer to use Date for that kind of types
++    let timestamp: TimeInterval
++}
++
++extension Message {
++    var opponentId: String {
++        if Auth.auth().currentUser?.uid == fromId {
++            return toId
++        } else {
++            return fromId
++        }
+     }
+ }
+diff --git a/MessView/Model/User.swift b/MessView/Model/User.swift
+index 12b2136..e128eb4 100644
+--- a/MessView/Model/User.swift
++++ b/MessView/Model/User.swift
+@@ -7,16 +7,118 @@
+ //
+ 
+ import UIKit
++import Firebase
+ 
+-class User: NSObject {
+-    var id: String?
+-    var name: String?
+-    var email: String?
+-    var profileImageUrl: String?
+-    init(dictionary: [String: AnyObject]) {
+-        self.id = dictionary["id"] as? String
+-        self.name = dictionary["name"] as? String
+-        self.email = dictionary["email"] as? String
+-        self.profileImageUrl = dictionary["profileImageUrl"] as? String
++//class sUser: NSObject {
++//    var id: String?
++//    var name: String?
++//    var email: String?
++//    var profileImageUrl: String?
++//    init(dictionary: [String: AnyObject]) {
++//        self.id = dictionary["id"] as? String
++//        self.name = dictionary["name"] as? String
++//        self.email = dictionary["email"] as? String
++//        self.profileImageUrl = dictionary["profileImageUrl"] as? String
++//    }
++//}
++
++
++struct User {
++    let id: String
++    let name: String
++    let email: String
++    let profileImageUrl: URL
++}
++
++extension User {
++    init?(id: String, userParameters: [String: Any]) {
++        guard let name = userParameters["name"] as? String else { return nil }
++        guard let email = userParameters["email"] as? String else { return nil }
++        guard let profileImageUrl = (userParameters["profileImageUrl"] as? String).flatMap ({ URL(string: $0) }) else { return nil }
++
++        self.id = id
++        self.name = name
++        self.email = email
++        self.profileImageUrl = profileImageUrl
+     }
+ }
++
++extension Decodable {
++    init(from: Any) throws {
++        let data = try JSONSerialization.data(withJSONObject: from, options: .prettyPrinted)
++        let decoder = JSONDecoder()
++        self = try decoder.decode(Self.self, from: data)
++    }
++}
++//
++//func a() {
++//    let dict: [String: Any] = ["id": "asdasdas"]
++//    do {
++//        let user = try User(from: dict)
++//    } catch {
++//        // Handle error
++//    }
++//}
++
++
++//
++////Представим что у юзера есть роль (scientist, engineer или manager)
++//// с сервера они например приходят цифрами: 1,2,3
++////обьявим enum
++//
++//enum Role: Int, Codable {
++//    case scientist = 1
++//    case engineer = 2
++//    case manager = 3
++//}
++//
++//// и обьявим юзера
++//struct User: Codable {
++//    let id: String
++//    let name: String
++//    let role: Role
++//    let email: String
++//    let profileImageUrl: URL
++//}
++//
++//// и например потом в зависимости от роли юзера с которым работаем нам нужно сделать разные действия
++//func test(user: User) {
++//    switch user.role {
++//    case .engineer:
++//        print("engineer")
++//    case .manager:
++//        print("manager")
++//    case .scientist:
++//        print("scientist")
++//    }
++//}
++//
++//enum Prop {
++//    case image(UIImage)
++//    case string(String)
++//    case coordinates(x: CGFloat, y: CGFloat)
++//    indirect case nestedProp(Prop)
++//}
++//
++//func testProp(prop: Prop) {
++//    switch prop {
++//    case .image(let image):
++//        // do something with image
++//        break
++//    case .string(let string):
++//        // do something with string
++//        break
++//    case .coordinates(let x, let y):
++//        // do something with coordinates
++//        break
++//    }
++//}
++//
++//func unwrap(_ optional: String?) {
++//    switch optional {
++//    case .some(let unwrapped):
++//        break
++//    case .none:
++//        break
++//    }
++//}
+diff --git a/MessView/View/ChatLog.swift b/MessView/View/ChatLog.swift
+index d4a5ff1..b6814a9 100644
+--- a/MessView/View/ChatLog.swift
++++ b/MessView/View/ChatLog.swift
+@@ -13,12 +13,10 @@ import Kingfisher
+ 
+ class ChatLog: UITableViewCell {
+     
+-    @IBOutlet weak var userImage: UIImageView!{
+-        didSet{
+-            
+-             userImage.clipsToBounds = true
++    @IBOutlet weak var userImage: UIImageView! {
++        didSet {
++            userImage.clipsToBounds = true
+             userImage.layer.cornerRadius = 35
+-           
+         }
+     }
+     @IBOutlet weak var messageText: UILabel!
+@@ -26,24 +24,17 @@ class ChatLog: UITableViewCell {
+     @IBOutlet weak var username: UILabel!
+     
+     var message: Message? {
+-        didSet{
+-            
++        didSet {
++            guard let message = message else { return }
+             setupNameAndProfileImage()
+-            
+-            self.messageText.text = self.message?.text
+-            
+-            if let seconds = self.message?.timestamp?.doubleValue {
+-                let timestampDate = Date(timeIntervalSince1970: seconds)
+-                let dateFormatter = DateFormatter()
+-                dateFormatter.dateFormat = "hh:mm a"
+-                self.timestamp.text = dateFormatter.string(from: timestampDate)
+-            }
++            self.messageText.text = message.text
++            self.timestamp.text = DateFormatter.timeOnlyDateFormatter.string(from: message.timestamp)
+         }
+     }
+     
+     fileprivate func setupNameAndProfileImage() {
+         
+-        if let id = message?.chatPartnerId() {
++        if let id = message?.opponentId {
+           let ref = Database.database().reference().child("users").child(id)
+             ref.observeSingleEvent(of: .value, with: { (snapshot) in
+                 if let dict = snapshot.value as? [String: AnyObject] {
+@@ -58,16 +49,4 @@ class ChatLog: UITableViewCell {
+         }
+         
+     }
+-
+-    override func awakeFromNib() {
+-        super.awakeFromNib()
+-        // Initialization code
+-    }
+-
+-    override func setSelected(_ selected: Bool, animated: Bool) {
+-        super.setSelected(selected, animated: animated)
+-
+-        // Configure the view for the selected state
+-    }
+-    
+ }
+diff --git a/MessView/View/UserListCell.swift b/MessView/View/UserListCell.swift
+index f0a0ab5..f26c90a 100644
+--- a/MessView/View/UserListCell.swift
++++ b/MessView/View/UserListCell.swift
+@@ -10,28 +10,27 @@ import UIKit
+ 
+ class UserListCell: UITableViewCell {
+ 
+-    
+-    @IBOutlet weak var userImg: UIImageView!{
+-        didSet{
++    @IBOutlet var userImg: UIImageView! {
++        didSet {
+             userImg.clipsToBounds = true
+             userImg.layer.cornerRadius = 15
+         }
+     }
+-    @IBOutlet weak var name: UILabel!
+-    @IBOutlet weak var caption: UILabel!
+-    
+-    
+-    
+-    
+-    override func awakeFromNib() {
+-        super.awakeFromNib()
+-        // Initialization code
+-    }
+ 
+-    override func setSelected(_ selected: Bool, animated: Bool) {
+-        super.setSelected(selected, animated: animated)
++    @IBOutlet var name: UILabel!
++    @IBOutlet var caption: UILabel!
++}
++
++extension UserListCell {
++    static let reuseIdentifier = "UsersListCustomCell"
++    static let preferredHeight: CGFloat = 85
++}
++
++extension UserListCell {
+ 
+-        // Configure the view for the selected state
++    func setup(with user: User) {
++        userImg.kf.setImage(with: user.profileImageUrl)
++        name.text = user.name
++        caption.text = user.email
+     }
+-    
+ }
+-- 
+2.16.2
+

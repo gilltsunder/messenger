@@ -682,7 +682,6 @@ depends-member:
 - ["10Kingfisher11ImageFormatO", "hashValue"]
 - ["10Kingfisher11ImageFormatO", "unknown"]
 - ["10Kingfisher11ImageSourceC", "CGImageSource"]
-- ["10Kingfisher11ImageSourceC", "deinit"]
 - ["10Kingfisher11ImageSourceC", "imageRef"]
 - ["10Kingfisher11ImageSourceC", "init"]
 - !private ["Si", "init"]

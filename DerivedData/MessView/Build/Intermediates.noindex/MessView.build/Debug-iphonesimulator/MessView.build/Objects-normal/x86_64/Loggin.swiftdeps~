@@ -6,14 +6,6 @@ provides-nominal:
 provides-member:
 - ["8MessView5LoginC", ""]
 provides-dynamic-lookup:
-- "loginButton"
-- "loginOutlet"
-- "passwordTF"
-- "textFieldCollection"
-- "touchesBegan"
-- "usernameTF"
-- "viewDidAppear"
-- "viewDidLoad"
 depends-top-level:
 - !private "!="
 - !private "/"
